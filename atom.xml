@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Drapor</title>
+  <subtitle>Witness me.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://gabrieldrapor.github.io/"/>
+  <updated>2016-09-20T17:15:58.147Z</updated>
+  <id>http://gabrieldrapor.github.io/</id>
+  
+  <author>
+    <name>Gabriel Drapor</name>
+    <email>diary.sjr@live.com</email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一点规划</title>
+    <link href="http://gabrieldrapor.github.io/2016/09/20/160920_plans/"/>
+    <id>http://gabrieldrapor.github.io/2016/09/20/160920_plans/</id>
+    <published>2016-09-19T16:00:00.000Z</published>
+    <updated>2016-09-20T17:15:58.147Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/20160920%20Personal%20Plans.jpeg"></p>
+<p>&emsp;&emsp;&emsp;&emsp;<strong>彼方始有荣光在。</strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://7xugq7.com1.z0.glb.clouddn.com/20160920%20Personal%20Plans.jpeg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&lt;strong&gt;彼方始有荣光在。&lt;/stron
+    
+    </summary>
+    
+      <category term="个人规划" scheme="http://gabrieldrapor.github.io/categories/%E4%B8%AA%E4%BA%BA%E8%A7%84%E5%88%92/"/>
+    
+    
+      <category term="Plans" scheme="http://gabrieldrapor.github.io/tags/Plans/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>7.16-8.10</title>
+    <link href="http://gabrieldrapor.github.io/2016/08/10/160810_re/"/>
+    <id>http://gabrieldrapor.github.io/2016/08/10/160810_re/</id>
+    <published>2016-08-09T16:00:00.000Z</published>
+    <updated>2016-09-20T17:21:04.777Z</updated>
+    
+    <content type="html"><![CDATA[<p>这段日子参加了学校SNC组织的暑期学校，所得不少，主要包含以下：</p>
+<h2 id="第一阶段："><a href="#第一阶段：" class="headerlink" title="第一阶段："></a>第一阶段：</h2><blockquote>
+<ul>
+<li>运维方向的综述、计算机硬件组成、操作系统的安装（引导方式、分区表）；</li>
+<li>程序和系统的相关概念（进程、线程、内核空间等）；</li>
+<li>服务器的管理（储存管理、远程管理、安全管理）；</li>
+<li>Web服务器和FTP服务器的搭建（限制IP访问，权限配置）；</li>
+<li>Apache的配置（虚拟主机、目录权限、日志切割、防盗链、MIME、认证、HTTPS等）；</li>
+<li>MySQL基本操作（增删查改、库备份还原、账户管理等）；</li>
+<li>PHP基础语法；</li>
+<li>HTML+CSS+PHP实现动态留言板；</li>
+<li>Web安全（XSS、SQL注入）；</li>
+</ul>
+</blockquote>
+<h2 id="第二阶段（计算机网络）："><a href="#第二阶段（计算机网络）：" class="headerlink" title="第二阶段（计算机网络）："></a>第二阶段（计算机网络）：</h2><blockquote>
+<ul>
+<li>物理层（信号在介质中的传输方式，网络的通信方式，常见的传输媒体，以及宽带接入技术）；</li>
+<li>数据链路层（三个问题、PPP协议、以太网帧的构成、交换机的工作特点WLAN）；</li>
+<li>网络层（IP协议、数据报文的传输、IP协议族中的ARP协议、ICMP协议、IGMP协议和ICMPv6协议，VPN和PPPoE原理）；</li>
+<li>Wireshark抓包、网线制作；</li>
+<li>传输层（TCP协议、UDP协议）；</li>
+<li>应用层（HTTP、HTTPS、FTP、TELNET、DHCP）；</li>
+<li>电子邮件发信原理（SMTP、POP3、IMAP）；</li>
+</ul>
+</blockquote>
+<h2 id="第三阶段（Linux）："><a href="#第三阶段（Linux）：" class="headerlink" title="第三阶段（Linux）："></a>第三阶段（Linux）：</h2><blockquote>
+<ul>
+<li>Linux基础操作（路径切换、权限设置）；</li>
+<li>Vim使用（模式切换，删除、替换、查找、复制粘贴等常用操作）；</li>
+<li>LAMP环境搭建；</li>
+<li>Linux储存管理（LVM）和防火墙管理（iptables）；</li>
+</ul>
+</blockquote>
+<h1 id="网络设计相关："><a href="#网络设计相关：" class="headerlink" title="网络设计相关："></a>网络设计相关：</h1><blockquote>
+<ul>
+<li>组网硬件（交换机、路由器）；</li>
+<li>相关协议（STP、OSPF）；</li>
+<li>相关概念（VLAN、ACL、NAT策略）；</li>
+<li>用GNS3/Cisco Packet Tracer模拟搭建校园网络；</li>
+</ul>
+</blockquote>
+<p>感谢SNC，感谢暑期学校。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这段日子参加了学校SNC组织的暑期学校，所得不少，主要包含以下：&lt;/p&gt;
+&lt;h2 id=&quot;第一阶段：&quot;&gt;&lt;a href=&quot;#第一阶段：&quot; class=&quot;headerlink&quot; title=&quot;第一阶段：&quot;&gt;&lt;/a&gt;第一阶段：&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li
+    
+    </summary>
+    
+      <category term="学习记录" scheme="http://gabrieldrapor.github.io/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    
+    
+      <category term="Plans" scheme="http://gabrieldrapor.github.io/tags/Plans/"/>
+    
+      <category term="Paths" scheme="http://gabrieldrapor.github.io/tags/Paths/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>6.26-7.13</title>
+    <link href="http://gabrieldrapor.github.io/2016/07/13/160713_re/"/>
+    <id>http://gabrieldrapor.github.io/2016/07/13/160713_re/</id>
+    <published>2016-07-12T16:00:00.000Z</published>
+    <updated>2016-09-20T16:58:08.541Z</updated>
+    
+    <content type="html"><![CDATA[<p>小学期结束了，也来写个总结吧。</p>
+<h1 id="一、本专业"><a href="#一、本专业" class="headerlink" title="一、本专业"></a>一、本专业</h1><p><strong>过去的三周是学校的小学期，我</strong></p>
+<blockquote>
+<ul>
+<li>学习了Matlab的基础语法。</li>
+<li>本以为是只有一次数学建模，没想到是两次。</li>
+<li>本以为不是很难，结果一做才知道翻文献的时候经常连别人的模型都看不懂。</li>
+</ul>
+</blockquote>
+<p><strong>尽量抽点时间看看下学期的课，想把概率论提前学了。</strong></p>
+<h1 id="二、职业"><a href="#二、职业" class="headerlink" title="二、职业"></a>二、职业</h1><p><strong>过去的三周我</strong></p>
+<blockquote>
+<ul>
+<li>本想把爬虫学完，结果由于数学建模占用了时间，也浪费了一些时间，导致只学习了基础的一部分内容，看完了正则表达式。</li>
+<li>开始在Coursera上看Andrew Ng的Machine Learning课程，恰好能用到刚刚学的Matlab。</li>
+</ul>
+</blockquote>
+<p><strong>接下来</strong></p>
+<blockquote>
+<ul>
+<li>要参加SNC的暑期学校的培训，可能不能继续学习爬虫了，但是Coursera的课程可以抽空继续上。</li>
+<li>算法什么的等暑期学校结束之后再规划吧。</li>
+</ul>
+</blockquote>
+<p><strong>得到的启示：在干自己不那么想干而又不是很容易做的事情的时候，整个人的效率低到了一个惊人的水平。。</strong></p>
+<p>大概如此，想到再来补吧。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;小学期结束了，也来写个总结吧。&lt;/p&gt;
+&lt;h1 id=&quot;一、本专业&quot;&gt;&lt;a href=&quot;#一、本专业&quot; class=&quot;headerlink&quot; title=&quot;一、本专业&quot;&gt;&lt;/a&gt;一、本专业&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;过去的三周是学校的小学期，我&lt;/strong&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="学习记录" scheme="http://gabrieldrapor.github.io/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    
+    
+      <category term="Plans" scheme="http://gabrieldrapor.github.io/tags/Plans/"/>
+    
+      <category term="Paths" scheme="http://gabrieldrapor.github.io/tags/Paths/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>5.17-6.24</title>
+    <link href="http://gabrieldrapor.github.io/2016/06/24/160624_re/"/>
+    <id>http://gabrieldrapor.github.io/2016/06/24/160624_re/</id>
+    <published>2016-06-23T16:00:00.000Z</published>
+    <updated>2016-06-29T16:49:36.888Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="过去的一个多月里"><a href="#过去的一个多月里" class="headerlink" title="过去的一个多月里"></a>过去的一个多月里</h1><blockquote>
+<ul>
+<li>借助 Hexo 和 Github Pages 搭了自己的博客，也就是现在这个 darpor.me</li>
+<li>进入六月本想着好好准备期末考试和四级，但是其实还是浪费了很多时间，导致最后一周爆了一周的肝，总归是把所有的课都过了。</li>
+</ul>
+</blockquote>
+<h1 id="接下来的小学期"><a href="#接下来的小学期" class="headerlink" title="接下来的小学期"></a>接下来的小学期</h1><blockquote>
+<ul>
+<li>学习MATLAB，完成一次建模。</li>
+<li>学习正则表达式；</li>
+<li>学习python爬虫；</li>
+<li>开始看Andrew Ng的《Machine Learning》课程；</li>
+<li>继续看《数据结构与算法分析——C语言描述》，每一个知识点自己动手实现一遍；</li>
+<li>继续看Coursera上PKU的《计算机组成》的课程；</li>
+<li>挑选数据挖掘的课程，可以考虑开始看《数据挖掘导论》</li>
+<li>有空余时间的话可以读读《福尔摩斯探案集》</li>
+</ul>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;过去的一个多月里&quot;&gt;&lt;a href=&quot;#过去的一个多月里&quot; class=&quot;headerlink&quot; title=&quot;过去的一个多月里&quot;&gt;&lt;/a&gt;过去的一个多月里&lt;/h1&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;借助 Hexo 和 Github Pages 搭了自己
+    
+    </summary>
+    
+      <category term="学习记录" scheme="http://gabrieldrapor.github.io/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    
+    
+      <category term="Plans" scheme="http://gabrieldrapor.github.io/tags/Plans/"/>
+    
+      <category term="Paths" scheme="http://gabrieldrapor.github.io/tags/Paths/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>4.17-5.17</title>
+    <link href="http://gabrieldrapor.github.io/2016/05/17/160517_re/"/>
+    <id>http://gabrieldrapor.github.io/2016/05/17/160517_re/</id>
+    <published>2016-05-16T16:00:00.000Z</published>
+    <updated>2016-05-26T15:06:55.855Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="一、本专业"><a href="#一、本专业" class="headerlink" title="一、本专业"></a>一、本专业</h1><h4 id="过去的这段时间里"><a href="#过去的这段时间里" class="headerlink" title="过去的这段时间里"></a>过去的这段时间里</h4><blockquote>
+<ul>
+<li>期中考试高代70，数分没及格，数分上还要多下功夫。期末考试两门都不能挂</li>
+</ul>
+</blockquote>
+<h1 id="二、编程"><a href="#二、编程" class="headerlink" title="二、编程"></a>二、编程</h1><h4 id="过去的这段时间里-1"><a href="#过去的这段时间里-1" class="headerlink" title="过去的这段时间里"></a>过去的这段时间里</h4><blockquote>
+<ul>
+<li>用C和Python两种编程语言，解决了学校OJ中34道问题（虽然有水题）</li>
+<li>捡起还没看完的《C Primer Plus》接着看，感觉还是很受益的。</li>
+<li>开始读《数据结构与算法分析——C语言描述》，学了基础的算法分析，学习了一点链表的内容，并做了相应的笔记。<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3></li>
+<li>到六月份前配合着MIT的算法导论课，继续自由学习数据结构和算法的内容</li>
+</ul>
+</blockquote>
+<h1 id="三、网络"><a href="#三、网络" class="headerlink" title="三、网络"></a>三、网络</h1><h4 id="过去的这段时间里我"><a href="#过去的这段时间里我" class="headerlink" title="过去的这段时间里我"></a>过去的这段时间里我</h4><blockquote>
+<ul>
+<li>学会了用IIS+MS SQL Server架设一个叫做Discuz！NT的ASP.NET网站</li>
+<li>学会了用Apache+PHP+MySQL架设了一个叫做WordPress的php网站</li>
+<li>学会了用Tomcat+JDK+MySQL架设了一个叫做Jeecms的Jsp网站</li>
+</ul>
+</blockquote>
+<h4 id="接下来-1"><a href="#接下来-1" class="headerlink" title="接下来"></a>接下来</h4><blockquote>
+<ul>
+<li>学习远程配置vps（要学一点Linux），有选择性地学习一些网络知识（协议等）</li>
+</ul>
+</blockquote>
+<h1 id="四、其他"><a href="#四、其他" class="headerlink" title="四、其他"></a>四、其他</h1><h4 id="过去的这段时间我还"><a href="#过去的这段时间我还" class="headerlink" title="过去的这段时间我还"></a>过去的这段时间我还</h4><blockquote>
+<ul>
+<li>能够独立地拆自己十分难拆的笔记本</li>
+<li>看完了《Mr.Robot》 —— 感觉挺有共鸣的</li>
+<li>看完了《Legal High》第一季 —— 对法律有了一点新的感想</li>
+<li>看完了两季《Silicon Valley》，对创业有了新的看法</li>
+</ul>
+</blockquote>
+<h1 id="五、接下来的一点小计划"><a href="#五、接下来的一点小计划" class="headerlink" title="五、接下来的一点小计划"></a>五、接下来的一点小计划</h1><blockquote>
+<ul>
+<li>发现算法和数据结构还是蛮有意思的，而且很有益处，尽力学</li>
+<li>读完《C Primer Plus》，查漏补缺（书中涉及数据结构的部分也许可以先不看）</li>
+<li>把Python基础语法的尾收完</li>
+<li>边做上面的事情看看有没有合适的OJ题能做，还是要多实践</li>
+<li>接下来可能有3-5天电脑送修，利用这段时间看看曼昆和费曼的书，总之看看书</li>
+<li>6月中旬考四级，上了500分大学就可以不用再上英语课啦</li>
+<li>期末考试要认真准备</li>
+<li>希望能搭个博客，现在还在犹豫是选Github Pages还是自己租vps搭个WordPress之类的</li>
+<li>了解一下数据挖掘的路是走怎么走的</li>
+<li>*学爬虫，扒下自己的全部微博，注销之。</li>
+<li>要是感觉学习太枯燥了可以学一点Kali Linux</li>
+</ul>
+</blockquote>
+<hr>
+<p><strong>总之，学习不止。</strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;一、本专业&quot;&gt;&lt;a href=&quot;#一、本专业&quot; class=&quot;headerlink&quot; title=&quot;一、本专业&quot;&gt;&lt;/a&gt;一、本专业&lt;/h1&gt;&lt;h4 id=&quot;过去的这段时间里&quot;&gt;&lt;a href=&quot;#过去的这段时间里&quot; class=&quot;headerlink&quot; titl
+    
+    </summary>
+    
+      <category term="学习记录" scheme="http://gabrieldrapor.github.io/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    
+    
+      <category term="Plans" scheme="http://gabrieldrapor.github.io/tags/Plans/"/>
+    
+      <category term="Paths" scheme="http://gabrieldrapor.github.io/tags/Paths/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一章 引论</title>
+    <link href="http://gabrieldrapor.github.io/2016/05/13/160513_dsa-ch1/"/>
+    <id>http://gabrieldrapor.github.io/2016/05/13/160513_dsa-ch1/</id>
+    <published>2016-05-12T16:00:00.000Z</published>
+    <updated>2016-05-26T09:49:54.214Z</updated>
+    
+    <content type="html"><![CDATA[<ul>
+<li>递归的四条基本法则：</li>
+</ul>
+<ol>
+<li>基准情形。必须总有某些基准情形，它无需递归就能解出。</li>
+</ol>
+<ol>
+<li><p>不断推进。对于那些需要递归求解的情形，每一次递归调用都必须要使求解状况朝接近基准情形的方向推进。</p>
+</li>
+<li><p>设计法则。假设所有的递归调用都能运行。 </p>
+</li>
+<li>合成效益法则（compound interest rule）。在求解一个问题的同一实例时，切勿在不同的递归调用中做重复性的工作。 【5/11:例如求斐波那契数列的和时，比如求Fib(5)其实求了5次Fib(1),3次Fib(2)等等，这是一种极大的浪费】</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;递归的四条基本法则：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;基准情形。必须总有某些基准情形，它无需递归就能解出。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;不断推进。对于那些需要递归求解的情形，每一次递归调用都必须要使求解状况朝接近基准情形的方向推进。&lt;/
+    
+    </summary>
+    
+      <category term="《数据结构与算法分析——C语言描述》" scheme="http://gabrieldrapor.github.io/categories/%E3%80%8A%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90%E2%80%94%E2%80%94C%E8%AF%AD%E8%A8%80%E6%8F%8F%E8%BF%B0%E3%80%8B/"/>
+    
+    
+      <category term="《数据结构与算法分析——C语言描述》" scheme="http://gabrieldrapor.github.io/tags/%E3%80%8A%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90%E2%80%94%E2%80%94C%E8%AF%AD%E8%A8%80%E6%8F%8F%E8%BF%B0%E3%80%8B/"/>
+    
+      <category term="笔记" scheme="http://gabrieldrapor.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第二章 算法分析</title>
+    <link href="http://gabrieldrapor.github.io/2016/05/13/160513_dsa-ch2/"/>
+    <id>http://gabrieldrapor.github.io/2016/05/13/160513_dsa-ch2/</id>
+    <published>2016-05-12T16:00:00.000Z</published>
+    <updated>2016-06-01T12:20:10.596Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>2.4.3最大子序列和问题的解</strong></p>
+<blockquote>
+<p><strong>最大的子序列和问题</strong>：给定整数A1，A2，……，AN（可能有负数），求∑(k=i)^j A_k  的最大值（为方便起见，如果所有整数均为负数，则最大子序列和为0）</p>
+</blockquote>
+<p><strong>• 算法3</strong><br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//T(N)=O(N log N) </span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">int</span> <span class="title">MaxSubSum</span><span class="params">( <span class="keyword">const</span> <span class="keyword">int</span> A[], <span class="keyword">int</span> Left,<span class="keyword">int</span> Right )</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> MaxLeftSum,MaxRightSum;</span><br><span class="line">	<span class="keyword">int</span> MaxLeftBorderSum,MaxRightBorderSum;</span><br><span class="line">	<span class="keyword">int</span> LeftBorderSum,RightBorderSum;</span><br><span class="line">	<span class="keyword">int</span> Center,i;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span>(Left==Right)   <span class="comment">//Base Case,即'基准情形'</span></span><br><span class="line">	<span class="keyword">if</span> (A[Left]&gt;<span class="number">0</span>)</span><br><span class="line">		<span class="keyword">return</span> A[Left];</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">		<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">	Center = (Left + Right)/<span class="number">2</span>;</span><br><span class="line">	MaxLeftSum=MaxSubSum(A,Left,Center);<span class="comment">//左边中最大的子序列和</span></span><br><span class="line">	MaxRightSum=MaxSubSum(A,Center+<span class="number">1</span>,Right);<span class="comment">//右边中最大的子序列和</span></span><br><span class="line">	MaxLeftBorderSum = <span class="number">0</span>; LeftBorderSum = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(i=Center;i&gt;=Left;i--)<span class="comment">//从中心开始向左找最大子序列和</span></span><br><span class="line">	&#123;</span><br><span class="line">		LeftBorderSum+=A[i];</span><br><span class="line">		<span class="keyword">if</span>(LeftBorderSum&gt;MaxLeftBorderSum)</span><br><span class="line">		MaxLeftBorderSum= LeftBorderSum;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	MaxRightBorderSum = <span class="number">0</span>; RightBorderSum = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(i=Center+<span class="number">1</span>;i&lt;=Right;i+　+)<span class="comment">//从中心开始向右找最大子序列和</span></span><br><span class="line">	&#123;</span><br><span class="line">		RightBorderSum+=A[i];</span><br><span class="line">		<span class="keyword">if</span>(RightBorderSum&gt;MaxRightBorderSum)</span><br><span class="line">		MaxRightBorderSum=RightBorderSum;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> Max3(MaxLeftSum,MaxRightSum,MaxLeftBorderSum + MaxRightBorderSum);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">MaxSubsequenceSum</span><span class="params">(<span class="keyword">const</span> <span class="keyword">int</span> A[], <span class="keyword">int</span> N)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> MaxSubSum(A , <span class="number">0</span> , N - <span class="number">1</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">Max3</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b,<span class="keyword">int</span> c)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span> (a&gt;b)</span><br><span class="line">	<span class="keyword">if</span> (a&gt;c) <span class="keyword">return</span> a;</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">return</span> c;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">	<span class="keyword">if</span> (c&gt;b) <span class="keyword">return</span> c;</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">return</span> b;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<a id="more"></a>
+<p><strong>• 更简单有效的算法4</strong></p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">MaxSubsequenceSum</span><span class="params">(<span class="keyword">const</span> <span class="keyword">int</span> A[], <span class="keyword">int</span> N)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> ThisSum,MaxSum,j;</span><br><span class="line">	</span><br><span class="line">	ThisSum=MaxSum=<span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(j=<span class="number">0</span>;j&lt;N;j++)</span><br><span class="line">	&#123;</span><br><span class="line">		ThisSum+=A[j];</span><br><span class="line">		<span class="keyword">if</span>(ThisSum &gt; MaxSum)</span><br><span class="line">			MaxSum = ThisSum;</span><br><span class="line">		<span class="keyword">else</span> <span class="keyword">if</span>(ThisSum &lt; <span class="number">0</span>)  <span class="comment">//这一步是关键，如果前j项和是负的，那就可以扔掉不要了</span></span><br><span class="line">			ThisSum=<span class="number">0</span>;</span><br><span class="line">	&#125;</span><br><span class="line">		<span class="keyword">return</span> MaxSum;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>这种算法的附带优点是，只需要扫描一次数据，一旦A[i]被扫入并被处理，它就不再需要被记忆【5/13:数据赋值等操作少】。在任何时刻，算法都能对它已经读入的数据给出子序列问题的正确答案（其他算法不具有这个特性）【5/13:也就是说，假如你输入的是10个数据，在你输入到任何一个的时候，在这种情况下的解已经被算出来了】。具有这种特性的算法叫做<em>联机算法</em>（online algorithm）。</p>
+</blockquote>
+<p><strong>2.4.4运行时间中的对数</strong></p>
+<blockquote>
+<p>除分治算法外，可将对数最常出现的规律概括为下列一般法则：如果一个算法用常数时间（O（1））将问题的大小削减为其一部分（通常是1/2），那么该算法就是O（log N）。另一方面，如果使用常数时间只是把问题减少一个常数（如将问题减少1），那么这种算法就是O（N）的。<br>【5/15:可以理解为就是一个循环中，如果这个算法本身能够自己削减循环次数的话，那么就会从O（N）降到O（log N）】</p>
+</blockquote>
+<p><strong>• 对分算法</strong></p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//T(N)=O（log N）</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">BinarySearch</span><span class="params">(<span class="keyword">const</span> <span class="keyword">int</span> A[], <span class="keyword">int</span> x,<span class="keyword">int</span> n)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> Low,Mid,High;</span><br><span class="line">	Low=<span class="number">0</span>;High=n<span class="number">-1</span>;</span><br><span class="line">	<span class="keyword">while</span>(Low &lt;= High)</span><br><span class="line">	&#123;</span><br><span class="line">		Mid = (Low+High) /<span class="number">2</span>;</span><br><span class="line">   	       <span class="keyword">if</span>(A[Mid]&lt;x)</span><br><span class="line">			Low=Mid+<span class="number">1</span>;</span><br><span class="line">		<span class="keyword">else</span> <span class="keyword">if</span>(A[Mid]&gt; x)</span><br><span class="line">		High=Mid<span class="number">-1</span>;</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">		<span class="keyword">return</span> Mid;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> NotFound;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>它提供了在O（log N）时间内的Find（查找）操作。访问次数少，而如果是顺序查找的话就会需要多很多的访问次数。</p>
+<p><strong>• 欧几里德算法</strong><br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">unsigned</span> <span class="keyword">int</span> <span class="title">Gcd</span><span class="params">(<span class="keyword">unsigned</span> <span class="keyword">int</span> M,<span class="keyword">unsigned</span> <span class="keyword">int</span> N)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="keyword">unsigned</span> <span class="keyword">int</span> Rem;</span><br><span class="line">	<span class="keyword">while</span>( N&gt;<span class="number">0</span> )</span><br><span class="line">	&#123;</span><br><span class="line">		Rem = M % N;</span><br><span class="line">		M = N;</span><br><span class="line">		N = Rem;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> M;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p><strong>定理2.1</strong>：如果M &gt; N , 则M mod N &lt; M/2。T（N）=O（log N） 。</p>
+<p><strong>• 幂运算</strong></p>
+<pre><code class="c"><span class="comment">//T(N)=O(log N)</span>
+<span class="function"><span class="keyword">long</span> <span class="keyword">int</span> <span class="title">Pow</span><span class="params">(<span class="keyword">int</span> X,<span class="keyword">unsigned</span> <span class="keyword">int</span> N)</span>
+</span>{
+    <span class="keyword">if</span>( N == <span class="number">0</span> )
+        <span class="keyword">return</span> <span class="number">1</span>;
+    <span class="keyword">if</span>( N == <span class="number">1</span> )    <span class="comment">/**接下来的两行也可以不写**/</span>
+        <span class="keyword">return</span> X;
+    <span class="keyword">if</span>( IsEven( N ) )
+        <span class="keyword">return</span> Pow( X * X, N / <span class="number">2</span> );
+    <span class="comment">/**
+    以下的修改都是不可取的:
+    return Pow( Pow( X, 2), N / 2);
+    return Pow( Pow( X, N / 2), 2);
+    -以上这两种会产生无限循环，导致程序崩溃
+    return Pow( X, N / 2)* Pow(X, N / 2 );
+    -这种影响程序的效率【运行时间应该是O（N）(?)】
+    **/</span>
+    <span class="keyword">else</span>
+        <span class="keyword">return</span> Pow( X * X, N / <span class="number">2</span> ) * N;
+    <span class="comment">/**
+    如果不写N==1那两行的话，上面这行还可以写成
+    return Pow(X,N-1)*X;
+    **/</span>
+}
+</code></pre>
+<p><strong>“有时候看一看程序能够进行多大的调整而不影响其正确性倒是很有意思的”</strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;2.4.3最大子序列和问题的解&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;最大的子序列和问题&lt;/strong&gt;：给定整数A1，A2，……，AN（可能有负数），求∑(k=i)^j A_k  的最大值（为方便起见，如果所有整数均为负数，则最大子序列和为0）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;• 算法3&lt;/strong&gt;&lt;br&gt;&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;42&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;43&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;44&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;45&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;46&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;47&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;48&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;49&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;50&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;51&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//T(N)=O(N log N) &lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;MaxSubSum&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;( &lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; A[], &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; Left,&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; Right )&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; MaxLeftSum,MaxRightSum;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; MaxLeftBorderSum,MaxRightBorderSum;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; LeftBorderSum,RightBorderSum;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; Center,i;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt;(Left==Right)   &lt;span class=&quot;comment&quot;&gt;//Base Case,即&#39;基准情形&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (A[Left]&amp;gt;&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; A[Left];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;else&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	Center = (Left + Right)/&lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	MaxLeftSum=MaxSubSum(A,Left,Center);&lt;span class=&quot;comment&quot;&gt;//左边中最大的子序列和&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	MaxRightSum=MaxSubSum(A,Center+&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;,Right);&lt;span class=&quot;comment&quot;&gt;//右边中最大的子序列和&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	MaxLeftBorderSum = &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;; LeftBorderSum = &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt;(i=Center;i&amp;gt;=Left;i--)&lt;span class=&quot;comment&quot;&gt;//从中心开始向左找最大子序列和&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		LeftBorderSum+=A[i];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt;(LeftBorderSum&amp;gt;MaxLeftBorderSum)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		MaxLeftBorderSum= LeftBorderSum;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	MaxRightBorderSum = &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;; RightBorderSum = &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt;(i=Center+&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;i&amp;lt;=Right;i+　+)&lt;span class=&quot;comment&quot;&gt;//从中心开始向右找最大子序列和&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		RightBorderSum+=A[i];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt;(RightBorderSum&amp;gt;MaxRightBorderSum)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		MaxRightBorderSum=RightBorderSum;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; Max3(MaxLeftSum,MaxRightSum,MaxLeftBorderSum + MaxRightBorderSum);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;MaxSubsequenceSum&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(&lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; A[], &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; N)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; MaxSubSum(A , &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; , N - &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;Max3&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; a,&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; b,&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; c)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (a&amp;gt;b)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (a&amp;gt;c) &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; a;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; c;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;else&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (c&amp;gt;b) &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; c;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; b;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="《数据结构与算法分析——C语言描述》" scheme="http://gabrieldrapor.github.io/categories/%E3%80%8A%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90%E2%80%94%E2%80%94C%E8%AF%AD%E8%A8%80%E6%8F%8F%E8%BF%B0%E3%80%8B/"/>
+    
+    
+      <category term="《数据结构与算法分析——C语言描述》" scheme="http://gabrieldrapor.github.io/tags/%E3%80%8A%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90%E2%80%94%E2%80%94C%E8%AF%AD%E8%A8%80%E6%8F%8F%E8%BF%B0%E3%80%8B/"/>
+    
+      <category term="笔记" scheme="http://gabrieldrapor.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ASP.NET 搭建 Discuz! NT</title>
+    <link href="http://gabrieldrapor.github.io/2016/05/03/160503_asp/"/>
+    <id>http://gabrieldrapor.github.io/2016/05/03/160503_asp/</id>
+    <published>2016-05-02T16:00:00.000Z</published>
+    <updated>2016-06-01T12:19:38.593Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>架设环境选择：Windows 7 32bit + IIS 7.0 + Microsoft SQL Server 2014 Express</strong></p>
+<p><strong>*由于搭建时网路的原因，只能在内网搭建，方法基本相同，只需在防火墙和ip等稍作调整即可</strong></p>
+<h5 id="1-配置IIS。"><a href="#1-配置IIS。" class="headerlink" title="1.配置IIS。"></a>1.配置IIS。</h5><p>&emsp;&emsp; IIS是我们的服务器应用程序，我们首先需要打开它。</p>
+<ul>
+<li>首先在控制面板-程序和功能-打开或关闭Windows功能（如图），勾选“Internet Information Services可承载的Web核心”，“Internet信息服务”。</li>
+</ul>
+<p>   <img src="http://7xugq7.com1.z0.glb.clouddn.com/image004.png"></p>
+<ul>
+<li><p>在管理工具中找到“Internet 信息服务(IIS)管理器”，打开它，在左侧的“连接”栏下面找“个人电脑名&gt;网站”，右键点击网站，选择“添加网站”（如图）</p>
+<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image001.png"></p>
+</li>
+</ul>
+<p>在弹出的对话框中，填写必要信息。</p>
+<a id="more"></a>
+<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image005.png"></p>
+<pre><code>网站名称----给你的网站起个名字,如这里的&quot;SNC_ASP.NET&quot;
+
+物理路径----选取你网站在本地的目录
+
+绑定-IP地址----选取你服务器的ip地址，这里由于是在校园网环境中，无法搭建到外网的服务器，所以选取内网ip。
+
+端口----默认是80，如果有冲突可以自行修改。查看当前系统所占用的端口可以打开cmd，输入指令“netstat -a”查询（如图）
+</code></pre><p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image007.png"> </p>
+<ul>
+<li><p>查看IIS的主界面，找到“默认文档”，打开。</p>
+</li>
+<li><p>在打开的界面中，右键选择添加，添加名称为index.aspx，否则搭建服务器之后由于服务器不认识aspx的首页而打不开它。</p>
+<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image009.png"></p>
+<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image011.png"></p>
+</li>
+</ul>
+<hr>
+<h5 id="2-配置SQL-Server"><a href="#2-配置SQL-Server" class="headerlink" title="2.配置SQL Server"></a>2.配置SQL Server</h5><p>从<a href="https://www.microsoft.com/zh-CN/download/details.aspx?id=42299" target="_blank" rel="external">https://www.microsoft.com/zh-CN/download/details.aspx?id=42299</a> 下载 Microsoft® SQL Server® 2014 Express，只需下载    “ExpressAndTools 64BIT\SQLEXPRWT_你系统位数_CHS.exe”即可。下载完之后打开，选择提取目录，等待解压。</p>
+<p>打开解压的目录下的SETUP.EXE，在打开的“SQL Server安装中心”中选择“全新SQL Server 独立安装或向现有安装添加功能”，打开“SQL Server 2014安装程序”进行安装。</p>
+<p><strong>需要特别注意的是:</strong></p>
+<ul>
+<li>在“实例配置”中，可以自行命名实例，也可以用系统默认的实例名，但最好把名字记下来</li>
+</ul>
+<ul>
+<li>在“服务器配置”中，需要对SQL Server数据库选择一个用户，可以添加系统中的用户，填写对应的密码。如图。</li>
+</ul>
+<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image013.png"></p>
+<ul>
+<li>在“数据库引擎配置”中，最好选择混合模式，单独设置一个SQL Server系统管理员账户，否则在后面关联用户的时候可能会遇到麻烦。</li>
+</ul>
+<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image015.png"></p>
+<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image019.png"></p>
+<p>完成安装后，打开SQL Server 2014 Management Studio，连接到你的服务器。</p>
+<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image018.png"></p>
+<p>这里可以选择Windows 身份验证，也可以选择SQL Server身份验证。然后点击“连接”。</p>
+<p>连接后，在右侧的对象资源管理器中，找到“数据库，右键单击，选择“新建数据库”，填写数据库名称，如dnt，然后设置所有者，可以直接选sa即可。</p>
+<figure class="half"><br><br>    <img src="http://7xugq7.com1.z0.glb.clouddn.com/image021.png"><br><br>    <img src="http://7xugq7.com1.z0.glb.clouddn.com/image019.png"><br><br></figure>
+
+
+
+<hr>
+<h5 id="3-安装Discuz！NT。"><a href="#3-安装Discuz！NT。" class="headerlink" title="3.安装Discuz！NT。"></a>3.安装Discuz！NT。</h5><p>从官网 <a href="http://www.comsenz.com/products/nt" target="_blank" rel="external">http://www.comsenz.com/products/nt</a> 下载Discuz！NT压缩包，将其解压，</p>
+<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image022.png"></p>
+<p>打开readme目录下的catalog.html可以看见官方所给出的介绍页面，其中就包括了安装指南</p>
+<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image023.png"></p>
+<p>接下来，我们只需按照安装指南所给的步骤一步步进行</p>
+<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image026.png"></p>
+<ul>
+<li>这里特别注意划红线的部分，是把upload_files目录里的东西放到服务器的根目录下而不是把upload_files文件夹整个放进服务器根目录。如图。</li>
+</ul>
+<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image028.png"></p>
+<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image032.png"></p>
+<ul>
+<li>我使用的系统是WIN7，但依旧需要修改目录的权限，右键-属性-安全-编辑就可以编辑用户权限了。在IIS管理器中也可以对目录的权限进行设置。</li>
+</ul>
+<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image030.png"></p>
+<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image033.png"> </p>
+<ul>
+<li>按照教程要求，我们在浏览器地址栏中输入应输入的内容，然后发现了如下的报错。</li>
+</ul>
+<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image034.png"></p>
+<ul>
+<li>通过阅读错误信息和查看根目录下的web.config配置文件，我们可以大概了解到问题出在Discuz!NT没有获得接管权，而在配置文件中也没有对相关权限的设置。</li>
+</ul>
+<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image036.png"></p>
+<ul>
+<li>此时我们应该做的是，打开控制面板-Windows功能，在应用程序开发功能目录下将下面的ASP.NET功能勾选上。系统会自动将需要的其他功能自动勾选上。</li>
+</ul>
+<figure class="half"><br><br>    <img src="http://7xugq7.com1.z0.glb.clouddn.com/image037.png"><br><br>    <img src="http://7xugq7.com1.z0.glb.clouddn.com/image039.png"><br><br></figure>
+
+
+
+<ul>
+<li>再次运行安装脚本，即访问<a href="http://您的域名/install/index.aspx" target="_blank" rel="external">http://您的域名/install/index.aspx</a> ，会看到如图的界面。 选择”接受”，点击“下一步”。</li>
+</ul>
+<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image041.png"></p>
+<ul>
+<li>通过环境监测后，需要填写数据库信息，填写刚才创建的数据库名称，管理员账号和密码，在数据库服务器一项中填写自己的SQL Server服务器名称。</li>
+</ul>
+<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image045.png"></p>
+<p>点击下一步。</p>
+<ul>
+<li>在出现的“论坛设置信息”界面中，自行设定管理员名称和密码。然后再次点击下一步。</li>
+</ul>
+<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image043.png"></p>
+<ul>
+<li>然后会出现如图界面。</li>
+</ul>
+<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image047.png"></p>
+<ul>
+<li>点击”进入论坛“，可以看到论坛的界面，说明搭建成功。可以尝试登陆管理员账号，也可以通过本机ip访问论坛。</li>
+</ul>
+<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image049.png"></p>
+<pre><code>  
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;架设环境选择：Windows 7 32bit + IIS 7.0 + Microsoft SQL Server 2014 Express&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;*由于搭建时网路的原因，只能在内网搭建，方法基本相同，只需在防火墙和ip等稍作调整即可&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;1-配置IIS。&quot;&gt;&lt;a href=&quot;#1-配置IIS。&quot; class=&quot;headerlink&quot; title=&quot;1.配置IIS。&quot;&gt;&lt;/a&gt;1.配置IIS。&lt;/h5&gt;&lt;p&gt;&amp;emsp;&amp;emsp; IIS是我们的服务器应用程序，我们首先需要打开它。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;首先在控制面板-程序和功能-打开或关闭Windows功能（如图），勾选“Internet Information Services可承载的Web核心”，“Internet信息服务”。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;   &lt;img src=&quot;http://7xugq7.com1.z0.glb.clouddn.com/image004.png&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;在管理工具中找到“Internet 信息服务(IIS)管理器”，打开它，在左侧的“连接”栏下面找“个人电脑名&amp;gt;网站”，右键点击网站，选择“添加网站”（如图）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xugq7.com1.z0.glb.clouddn.com/image001.png&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在弹出的对话框中，填写必要信息。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Server" scheme="http://gabrieldrapor.github.io/categories/Server/"/>
+    
+    
+      <category term="Networks" scheme="http://gabrieldrapor.github.io/tags/Networks/"/>
+    
+      <category term="Server" scheme="http://gabrieldrapor.github.io/tags/Server/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>php搭建WordPress</title>
+    <link href="http://gabrieldrapor.github.io/2016/05/03/160503-php/"/>
+    <id>http://gabrieldrapor.github.io/2016/05/03/160503-php/</id>
+    <published>2016-05-02T16:00:00.000Z</published>
+    <updated>2016-05-30T14:05:20.859Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>架设环境选择：Win8.1 64bit + Apache2.2.25 + MySQL5.7 + PHP5.6.20</strong></p>
+<p><strong>*由于搭建时网路的原因，只能在内网搭建，方法基本相同，只需在防火墙和ip等稍作调整即可</strong></p>
+<h5 id="1．安装Apache，MySQL和php"><a href="#1．安装Apache，MySQL和php" class="headerlink" title="1．安装Apache，MySQL和php"></a>1．安装Apache，MySQL和php</h5><p> 不多赘述，但需要注意的是：</p>
+<ul>
+<li>Apache安装过程，中会有端口设置，默认是80，为避免冲突可将其修改。安装后也可以在httpd.conf中修改监听的端口</li>
+<li>php安装完成后将安装目录下的php-development.ini重命名为php.ini    </li>
+<li>在MySQL安装过程中会要求设置管理员账号，设置之后要记住。</li>
+</ul>
+<h5 id="2-在Apache中添加php模块"><a href="#2-在Apache中添加php模块" class="headerlink" title="2.在Apache中添加php模块"></a>2.在Apache中添加php模块</h5><ul>
+<li>打开apache安装目录下conf目录中的httpd.conf，具体方法参照<a href="http://php.net/manual/zh/install.windows.apache2.php" target="_blank" rel="external">http://php.net/manual/zh/install.windows.apache2.php</a> ，我采用的是添加cgi模块的方式，添加的部分如右图<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image052.png"></li>
+</ul>
+<h5 id="3-在PHP中加载MySQL相关的扩展程序"><a href="#3-在PHP中加载MySQL相关的扩展程序" class="headerlink" title="3.在PHP中加载MySQL相关的扩展程序"></a>3.在PHP中加载MySQL相关的扩展程序</h5><p>需要在php.ini配置文件中将extension_dir = “ext”和extension=php_mysql.dll前的分号去掉，即取消这两行的注释。这一步的目的可以理解为是将php和MySQL相连。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image056.png"><br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image054.png"></p>
+<h5 id="4-从WordPress官网https-cn-wordpress-org-下载WordPress的压缩包，解压，将其放在服务器根目录下或者在httpd-conf中将目录设为这个目录。"><a href="#4-从WordPress官网https-cn-wordpress-org-下载WordPress的压缩包，解压，将其放在服务器根目录下或者在httpd-conf中将目录设为这个目录。" class="headerlink" title="4.从WordPress官网https://cn.wordpress.org/下载WordPress的压缩包，解压，将其放在服务器根目录下或者在httpd.conf中将目录设为这个目录。"></a>4.从WordPress官网<a href="https://cn.wordpress.org/下载WordPress的压缩包，解压，将其放在服务器根目录下或者在httpd.conf中将目录设为这个目录。" target="_blank" rel="external">https://cn.wordpress.org/下载WordPress的压缩包，解压，将其放在服务器根目录下或者在httpd.conf中将目录设为这个目录。</a></h5><a id="more"></a>
+<h5 id="5-配置MySQL"><a href="#5-配置MySQL" class="headerlink" title="5.配置MySQL"></a>5.配置MySQL</h5><p>打开MySQL目录下的bin文件夹，按住shift右键单击空白处打开命令行。输入mysql –u 用户名 –p，然后按回车输入你的密码。如图。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image058.png"><br>成功登陆之后，我们需要创建一个新的数据库，指令为”CREATE DATABASE 数据库名;”，注意最后有分号。如下图。创建成功后可以通过指令“SHOW DATABASES;”查看当前所有数据库。如右图。更多SQL指令可以参考<a href="http://c.biancheng.net/cpp/u/mysql/" target="_blank" rel="external">http://c.biancheng.net/cpp/u/mysql/</a><br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image062.png"><br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image060.png"></p>
+<h5 id="6-配置在浏览器中访问本机，在地址栏中输入127-0-0-1-端口，会出现下图的界面，点击“现在就开始！”，然后会出现如图的界面，按照图中说明填写即可，然后提交。"><a href="#6-配置在浏览器中访问本机，在地址栏中输入127-0-0-1-端口，会出现下图的界面，点击“现在就开始！”，然后会出现如图的界面，按照图中说明填写即可，然后提交。" class="headerlink" title="6.配置在浏览器中访问本机，在地址栏中输入127.0.0.1:端口，会出现下图的界面，点击“现在就开始！”，然后会出现如图的界面，按照图中说明填写即可，然后提交。"></a>6.配置在浏览器中访问本机，在地址栏中输入127.0.0.1:端口，会出现下图的界面，点击“现在就开始！”，然后会出现如图的界面，按照图中说明填写即可，然后提交。</h5><p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image063.png"><br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image065.png"><br>其中，输入地址之后可能会遇到网页显示Internal Server Error，可以查看Apache的错误日志，查找错误原因。比如你第3步中如果没有进行第一个修改，日志中会记录如图的错误。这个错误在语法检查中不会被查出来，但是却会导致你无法访问自己的服务器。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image067.png"><br>另外，提交之后可能会出现如下图的错误，报错的原因是你没有进行第3步。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image068.png"></p>
+<h5 id="7-成功之后会出现如图的界面，相应地进行填写。"><a href="#7-成功之后会出现如图的界面，相应地进行填写。" class="headerlink" title="7.成功之后会出现如图的界面，相应地进行填写。"></a>7.成功之后会出现如图的界面，相应地进行填写。</h5><p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image070.png"></p>
+<h5 id="8-然后输入用户名和密码登陆即可。"><a href="#8-然后输入用户名和密码登陆即可。" class="headerlink" title="8.然后输入用户名和密码登陆即可。"></a>8.然后输入用户名和密码登陆即可。</h5><p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image072.png"><br>登陆之后会显示如图的界面，wordpress提供的图形化界面可以让你自由地个性化你的博客。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image076.png"><br>最后在地址栏中输入ip地址验证一下网站是否已经架设成功。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image074.png"> </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;架设环境选择：Win8.1 64bit + Apache2.2.25 + MySQL5.7 + PHP5.6.20&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;*由于搭建时网路的原因，只能在内网搭建，方法基本相同，只需在防火墙和ip等稍作调整即可&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;1．安装Apache，MySQL和php&quot;&gt;&lt;a href=&quot;#1．安装Apache，MySQL和php&quot; class=&quot;headerlink&quot; title=&quot;1．安装Apache，MySQL和php&quot;&gt;&lt;/a&gt;1．安装Apache，MySQL和php&lt;/h5&gt;&lt;p&gt; 不多赘述，但需要注意的是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Apache安装过程，中会有端口设置，默认是80，为避免冲突可将其修改。安装后也可以在httpd.conf中修改监听的端口&lt;/li&gt;
+&lt;li&gt;php安装完成后将安装目录下的php-development.ini重命名为php.ini    &lt;/li&gt;
+&lt;li&gt;在MySQL安装过程中会要求设置管理员账号，设置之后要记住。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&quot;2-在Apache中添加php模块&quot;&gt;&lt;a href=&quot;#2-在Apache中添加php模块&quot; class=&quot;headerlink&quot; title=&quot;2.在Apache中添加php模块&quot;&gt;&lt;/a&gt;2.在Apache中添加php模块&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;打开apache安装目录下conf目录中的httpd.conf，具体方法参照&lt;a href=&quot;http://php.net/manual/zh/install.windows.apache2.php&quot;&gt;http://php.net/manual/zh/install.windows.apache2.php&lt;/a&gt; ，我采用的是添加cgi模块的方式，添加的部分如右图&lt;br&gt;&lt;img src=http://7xugq7.com1.z0.glb.clouddn.com/image052.png&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&quot;3-在PHP中加载MySQL相关的扩展程序&quot;&gt;&lt;a href=&quot;#3-在PHP中加载MySQL相关的扩展程序&quot; class=&quot;headerlink&quot; title=&quot;3.在PHP中加载MySQL相关的扩展程序&quot;&gt;&lt;/a&gt;3.在PHP中加载MySQL相关的扩展程序&lt;/h5&gt;&lt;p&gt;需要在php.ini配置文件中将extension_dir = “ext”和extension=php_mysql.dll前的分号去掉，即取消这两行的注释。这一步的目的可以理解为是将php和MySQL相连。&lt;br&gt;&lt;img src=http://7xugq7.com1.z0.glb.clouddn.com/image056.png&gt;&lt;br&gt;&lt;img src=http://7xugq7.com1.z0.glb.clouddn.com/image054.png&gt;&lt;/p&gt;
+&lt;h5 id=&quot;4-从WordPress官网https-cn-wordpress-org-下载WordPress的压缩包，解压，将其放在服务器根目录下或者在httpd-conf中将目录设为这个目录。&quot;&gt;&lt;a href=&quot;#4-从WordPress官网https-cn-wordpress-org-下载WordPress的压缩包，解压，将其放在服务器根目录下或者在httpd-conf中将目录设为这个目录。&quot; class=&quot;headerlink&quot; title=&quot;4.从WordPress官网https://cn.wordpress.org/下载WordPress的压缩包，解压，将其放在服务器根目录下或者在httpd.conf中将目录设为这个目录。&quot;&gt;&lt;/a&gt;4.从WordPress官网&lt;a href=&quot;https://cn.wordpress.org/下载WordPress的压缩包，解压，将其放在服务器根目录下或者在httpd.conf中将目录设为这个目录。&quot;&gt;https://cn.wordpress.org/下载WordPress的压缩包，解压，将其放在服务器根目录下或者在httpd.conf中将目录设为这个目录。&lt;/a&gt;&lt;/h5&gt;
+    
+    </summary>
+    
+      <category term="Server" scheme="http://gabrieldrapor.github.io/categories/Server/"/>
+    
+    
+      <category term="Networks" scheme="http://gabrieldrapor.github.io/tags/Networks/"/>
+    
+      <category term="Server" scheme="http://gabrieldrapor.github.io/tags/Server/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>jsp搭建JEECMS</title>
+    <link href="http://gabrieldrapor.github.io/2016/05/03/160503_jsp/"/>
+    <id>http://gabrieldrapor.github.io/2016/05/03/160503_jsp/</id>
+    <published>2016-05-02T16:00:00.000Z</published>
+    <updated>2016-05-30T14:37:24.843Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>架设环境选择：Win8.1 64bit + Apache-tomcat-9.0.0 + MySQL5.7 + JDK 8.0</strong></p>
+<p><strong>*由于搭建时网路的原因，只能在内网搭建，方法基本相同，只需在防火墙和ip等稍作调整即可</strong></p>
+<ul>
+<li>从<a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank" rel="external">http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html</a> 下载JDK，并安装。并配置好环境变量。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image078.png"><br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image080.png"><br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image081.png"><a id="more"></a></li>
+<li>从官方<a href="http://tomcat.apache.org/下载tomcat压缩包" target="_blank" rel="external">http://tomcat.apache.org/下载tomcat压缩包</a><br>下载之后解压<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image083.png"></li>
+<li>打开apache-tomcat-9.0.0.M4\bin目录下的start.bat<br>出现的对话框如果没有自动关闭，且最后一行为Server startup in xxx ms，说明服务器搭建成功(如图)<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image085.png"></li>
+<li>打开浏览器，访问localhost:8080，出现如图界面说明成功了<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image087.png"></li>
+<li>从官网<a href="http://www.jeecms.com/下载jeecms压缩包，下载之后解压" target="_blank" rel="external">http://www.jeecms.com/下载jeecms压缩包，下载之后解压</a><br>将其中ROOT目录替换webapps下的ROOT目录<br>重新启动服务器，在浏览器中访问localhost:8080，出现如图界面。说明配置正确了。<br>勾选“我已经阅读并同意此协议”，点击“下一步”<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image089.png"></li>
+<li><p>之后会出现如图界面，填写相应信息即可。<br>点击“提交”<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image091.png"><br>此时会发现服务器报错了（如图），错误代码500。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image094.png"><br>参考<a href="http://stackoverflow.com/questions/17484764/java-lang-classnotfoundexception-com-mysql-jdbc-driver-in-eclipse" target="_blank" rel="external">http://stackoverflow.com/questions/17484764/java-lang-classnotfoundexception-com-mysql-jdbc-driver-in-eclipse</a> 可以得知是连接器出了问题，应该是MySQL与服务器没有连接好。<br>于是我们需要从<a href="https://dev.mysql.com/downloads/connector/j/下载Connector，下载好之后解压，将其中的mysql-connector-java-5.1.38-bin.jar" target="_blank" rel="external">https://dev.mysql.com/downloads/connector/j/下载Connector，下载好之后解压，将其中的mysql-connector-java-5.1.38-bin.jar</a> 放到Tomcat目录下的lib目录中。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image093.png"></p>
+</li>
+<li><p>重启Tomcat，重新提交数据库信息，然后会出现如下图的界面。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image096.png"></p>
+</li>
+<li>按照指示再次重启Tomcat，访问localhost:8080，可以看到如图界面，说明搭建成功。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image098.png"></li>
+<li>可以登陆管理员账户，账号为admin，密码为password。</li>
+</ul>
+<ul>
+<li>还可以尝试后台登陆。访问<a href="http://localhost:8080/jeeadmin/jeecms/login.do" target="_blank" rel="external">http://localhost:8080/jeeadmin/jeecms/login.do</a> ，可以看到如图界面。输入账号密码。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image102.png"><br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image104.png"></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;架设环境选择：Win8.1 64bit + Apache-tomcat-9.0.0 + MySQL5.7 + JDK 8.0&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;*由于搭建时网路的原因，只能在内网搭建，方法基本相同，只需在防火墙和ip等稍作调整即可&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;从&lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&quot;&gt;http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&lt;/a&gt; 下载JDK，并安装。并配置好环境变量。&lt;br&gt;&lt;img src=http://7xugq7.com1.z0.glb.clouddn.com/image078.png&gt;&lt;br&gt;&lt;img src=http://7xugq7.com1.z0.glb.clouddn.com/image080.png&gt;&lt;br&gt;&lt;img src=http://7xugq7.com1.z0.glb.clouddn.com/image081.png&gt;
+    
+    </summary>
+    
+      <category term="Server" scheme="http://gabrieldrapor.github.io/categories/Server/"/>
+    
+    
+      <category term="Networks" scheme="http://gabrieldrapor.github.io/tags/Networks/"/>
+    
+      <category term="Server" scheme="http://gabrieldrapor.github.io/tags/Server/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HTTP Response/Request Headers</title>
+    <link href="http://gabrieldrapor.github.io/2016/04/27/160427_http/"/>
+    <id>http://gabrieldrapor.github.io/2016/04/27/160427_http/</id>
+    <published>2016-04-26T16:00:00.000Z</published>
+    <updated>2016-05-30T14:11:23.230Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是一次404过程中，客户端和服务器发送请求的头(Headers)<br>先想办法炸出404（如图）</p>
+<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/404.png" alt=""></p>
+<p>HTTP Headers的内容如下：</p>
+<blockquote>
+<p><strong>General</strong><br>Request URL:<a href="http://www.xxx.com/xxxxxx.xx" target="_blank" rel="external">http://www.xxx.com/xxxxxx.xx</a>  //请求目的地的地址<br>Request Method: GET                  //请求方式 这里是管服务器要东西<br>Status Code: 404 Not Found HTTP     //HTTP状态码，这里是404，代表没有找到<br>Remote Address: 127.0.0.1:8081      //远程地址，不是ip地址，一般是127.0.0.1</p>
+<p><strong>Response Headers</strong>                 //应答头部字段<br>HTTP/1.1 404 Not Found              //HTTP版本是1.1<br>Date: Wed, 27 Apr 2016 10:58:04 GMT //时间，采用格林尼治标准时间<br>Server: Apache/2.2.25 (Win32)          //服务器类型<br>Content-Length: 208                //实体内容长度 208<br>Keep-Alive: timeout=5, max=100        //持久连接 超时是5秒，最长100秒<br>Connection: Keep-Alive                //连接类型：持续连接<br>Content-Type: text/html; charset=iso-8859-1 //实体内容种类:文本/网页 编码类型是iso-8859-1</p>
+<p><strong>Request Headers</strong>                  //请求头部字段<br>GET /index2.php HTTP/1.1            //“我要index2.php，快给我” HTTP版本1.1<br>Host: www.xxx.com                    //要请求的主机的名字<br>Connection: keep-alive                //连接类型： “我要一直连着，不许给我断了“<br>Cache-Control: max-age=0            //缓存控制：”就不让你缓存，要东西现来找我”<br>Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,<em>/</em>;q=0.8<br>//“我只要下面这些：文本/HTML，应用/XHTML+XML，应用/xml(这个可以往后放不着急)，图片/webp(这个更不着急)”<br>Upgrade-Insecure-Requests: 1        //这个是？<br>User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.87 Safari/537.36    //浏览器支持类型<br>Accept-Encoding: gzip, deflate, sdch    //”我只看得懂下面这三种编码：gzip, deflate, sdch”<br>Accept-Language: zh-CN,zh;q=0.8     //”我只要中文”</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这是一次404过程中，客户端和服务器发送请求的头(Headers)&lt;br&gt;先想办法炸出404（如图）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xugq7.com1.z0.glb.clouddn.com/404.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;HTTP He
+    
+    </summary>
+    
+      <category term="HTTP" scheme="http://gabrieldrapor.github.io/categories/HTTP/"/>
+    
+    
+      <category term="Networks" scheme="http://gabrieldrapor.github.io/tags/Networks/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3.21-4.16</title>
+    <link href="http://gabrieldrapor.github.io/2016/04/16/160416_re/"/>
+    <id>http://gabrieldrapor.github.io/2016/04/16/160416_re/</id>
+    <published>2016-04-15T16:00:00.000Z</published>
+    <updated>2016-05-26T15:06:48.630Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="一、本专业"><a href="#一、本专业" class="headerlink" title="一、本专业"></a>一、本专业</h1><h4 id="过去的三周我"><a href="#过去的三周我" class="headerlink" title="过去的三周我"></a>过去的三周我</h4><blockquote>
+<ul>
+<li>说实话，最近没有认真地学习数分高代，现在心中充满愧疚和罪恶感</li>
+</ul>
+</blockquote>
+<h4 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h4><blockquote>
+<ul>
+<li>好好看课本，配合MIT的线性代数课程，巩固最近一段时间数分高代的知识</li>
+</ul>
+</blockquote>
+<h1 id="二、编程"><a href="#二、编程" class="headerlink" title="二、编程"></a>二、编程</h1><h4 id="过去的三周我-1"><a href="#过去的三周我-1" class="headerlink" title="过去的三周我"></a>过去的三周我</h4><blockquote>
+<ul>
+<li>用C和Python两种编程语言，解决了学校OJ中27道问题，但还没有涉及数据结构和算法的内容</li>
+</ul>
+</blockquote>
+<h4 id="接下来-1"><a href="#接下来-1" class="headerlink" title="接下来"></a>接下来</h4><blockquote>
+<ul>
+<li>开始学习数据结构和算法的内容</li>
+</ul>
+</blockquote>
+<h1 id="三、网络"><a href="#三、网络" class="headerlink" title="三、网络"></a>三、网络</h1><h4 id="过去的三周我-2"><a href="#过去的三周我-2" class="headerlink" title="过去的三周我"></a>过去的三周我</h4><blockquote>
+<ul>
+<li>学习了一些关于Apache的基础知识</li>
+</ul>
+</blockquote>
+<h4 id="接下来-2"><a href="#接下来-2" class="headerlink" title="接下来"></a>接下来</h4><blockquote>
+<ul>
+<li>继续学习，同时学习Tomcat和用vps搭建服务器</li>
+</ul>
+</blockquote>
+<h1 id="四、其他"><a href="#四、其他" class="headerlink" title="四、其他"></a>四、其他</h1><h3 id="过去三周我还在读这些"><a href="#过去三周我还在读这些" class="headerlink" title="过去三周我还在读这些"></a>过去三周我还在读这些</h3><blockquote>
+<ul>
+<li>浪潮之巅/吴军</li>
+<li>空谷幽兰——寻访当代中国隐士/比尔·波特</li>
+<li>人生不较劲/周国平</li>
+<li>经济学原理：微观经济学分册/曼昆</li>
+<li>怎样解题/波利亚</li>
+</ul>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;一、本专业&quot;&gt;&lt;a href=&quot;#一、本专业&quot; class=&quot;headerlink&quot; title=&quot;一、本专业&quot;&gt;&lt;/a&gt;一、本专业&lt;/h1&gt;&lt;h4 id=&quot;过去的三周我&quot;&gt;&lt;a href=&quot;#过去的三周我&quot; class=&quot;headerlink&quot; title=&quot;过
+    
+    </summary>
+    
+      <category term="学习记录" scheme="http://gabrieldrapor.github.io/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    
+    
+      <category term="Plans" scheme="http://gabrieldrapor.github.io/tags/Plans/"/>
+    
+      <category term="Paths" scheme="http://gabrieldrapor.github.io/tags/Paths/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>未来一段时间</title>
+    <link href="http://gabrieldrapor.github.io/2016/03/20/160320_plans/"/>
+    <id>http://gabrieldrapor.github.io/2016/03/20/160320_plans/</id>
+    <published>2016-03-19T16:00:00.000Z</published>
+    <updated>2016-05-27T06:58:09.762Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="一、学数学！"><a href="#一、学数学！" class="headerlink" title="一、学数学！"></a>一、学数学！</h1><p><strong>学好数分高代！</strong><br><strong>学好数分高代！</strong><br><strong>学好数分高代！</strong></p>
+<h1 id="二、巩固学习C，学习数据结构和算法"><a href="#二、巩固学习C，学习数据结构和算法" class="headerlink" title="二、巩固学习C，学习数据结构和算法"></a>二、巩固学习C，学习数据结构和算法</h1><h3 id="1-书目"><a href="#1-书目" class="headerlink" title="1.书目"></a>1.书目</h3><blockquote>
+<ul>
+<li>《C Primer Plus》</li>
+<li>《C Programming Language》</li>
+<li>《数据结构》</li>
+<li>《编程珠玑》</li>
+<li>《算法导论》</li>
+<li>《C Reference Manual》</li>
+<li>《Pointers and C》</li>
+<li>《C Traps and Pitfalls》</li>
+<li>《Expert C Programming》</li>
+</ul>
+</blockquote>
+<p>除此之外，还有与编程可能关系不太大的一些书：</p>
+<blockquote>
+<ul>
+<li>《深入理解计算机系统》</li>
+<li>《计算机网络自顶向下方法》</li>
+</ul>
+</blockquote>
+<h3 id="2-练习"><a href="#2-练习" class="headerlink" title="2.练习"></a>2.练习</h3><blockquote>
+<ul>
+<li>当然是刷OJ</li>
+<li><a href="http://coder.buct.edu.cn" target="_blank" rel="external">http://coder.buct.edu.cn</a></li>
+<li><a href="http://www.bnuoj.com/v3/" target="_blank" rel="external">http://www.bnuoj.com/v3/</a></li>
+<li><a href="http://www.clang.cc/oj/problemset.php" target="_blank" rel="external">http://www.clang.cc/oj/problemset.php</a></li>
+</ul>
+</blockquote>
+<h3 id="3-目标"><a href="#3-目标" class="headerlink" title="3.目标"></a>3.目标</h3><p>培养自己的算法能力</p>
+<h1 id="三、巩固Python基础，学习写爬虫"><a href="#三、巩固Python基础，学习写爬虫" class="headerlink" title="三、巩固Python基础，学习写爬虫"></a>三、巩固Python基础，学习写爬虫</h1><blockquote>
+<p>Python基础知识 <a href="http://www.liaoxuefeng.com/" target="_blank" rel="external">http://www.liaoxuefeng.com/</a><br>爬虫 <a href="http://cuiqingcai.com/1052.html" target="_blank" rel="external">http://cuiqingcai.com/1052.html</a></p>
+</blockquote>
+<h1 id="四、学习使用Linux"><a href="#四、学习使用Linux" class="headerlink" title="四、学习使用Linux"></a>四、学习使用Linux</h1><ul>
+<li>阅读《鸟哥的Linux私房菜·基础学习篇》</li>
+<li>学习在Linux下配置服务器</li>
+<li>有时间的话搞一搞树莓派（在宿舍搭个ftp给室友之类的）</li>
+<li>在不久的将来，摆脱Windows的束缚，将Linux作为常用系统</li>
+</ul>
+<h1 id="五、学习数据挖掘"><a href="#五、学习数据挖掘" class="headerlink" title="五、学习数据挖掘"></a>五、学习数据挖掘</h1><p>这个目前有些远，没有特别搜集专门的学习路线，只是找到了这个：<br>    <a href="http://www.zhihu.com/question/20757000" target="_blank" rel="external">在数据分析、挖掘方面，有哪些好书值得推荐？</a></p>
+<h1 id="六、还有一些与计算机无关的事情——"><a href="#六、还有一些与计算机无关的事情——" class="headerlink" title="六、还有一些与计算机无关的事情——"></a>六、还有一些与计算机无关的事情——</h1><h2 id="（一）读书"><a href="#（一）读书" class="headerlink" title="（一）读书"></a>（一）读书</h2><p>做好摘抄，做好读书笔记</p>
+<h3 id="1-纸质书单"><a href="#1-纸质书单" class="headerlink" title="1.纸质书单"></a>1.纸质书单</h3><ul>
+<li>霍乱时期的爱情/加西亚·马尔克斯</li>
+<li>怎样解题/波利亚</li>
+<li>人生不较劲/周国平</li>
+<li>撒哈拉的故事/三毛</li>
+<li>诗经</li>
+<li>经济学原理：微观经济学分册/曼昆</li>
+<li>中国人民共和国宪法</li>
+<li>…………</li>
+</ul>
+<h3 id="2-Kindle书单"><a href="#2-Kindle书单" class="headerlink" title="2.Kindle书单"></a>2.Kindle书单</h3><ul>
+<li>浪潮之巅/吴军</li>
+<li>空谷幽兰——寻访当代中国隐士/比尔·波特</li>
+<li>人生不较劲/周国平</li>
+<li>皮囊/菜崇达</li>
+<li>伶人往事/章诒和</li>
+<li>乌合之众/古斯塔夫·勒庞</li>
+<li>中国人民共和国宪法</li>
+<li>…………</li>
+</ul>
+<p>其实还有很多，不一一列出XD</p>
+<h2 id="（二）电影"><a href="#（二）电影" class="headerlink" title="（二）电影"></a>（二）电影</h2><ul>
+<li>荒野猎人</li>
+<li>秒速五厘米</li>
+<li>辩护人</li>
+<li>乱世佳人</li>
+<li>被遗弃的松子的一生</li>
+<li>机械姬</li>
+<li>十二怒汉</li>
+<li>…………</li>
+</ul>
+<h2 id="（三）运动"><a href="#（三）运动" class="headerlink" title="（三）运动"></a>（三）运动</h2><p><strong> 跑步!</strong><br><strong> 跑步!</strong><br><strong> 跑步!</strong></p>
+<h2 id="（四）NBA录像"><a href="#（四）NBA录像" class="headerlink" title="（四）NBA录像"></a>（四）NBA录像</h2><ul>
+<li>Bulls@Jazz 1998 NBA Finals Game 6</li>
+<li>Heat@Bostons 2012 East Finals Game 6</li>
+<li>Cavaliers@Pistons 2006 East Finals Game 5 Highlight</li>
+<li>Warriors@Thunder February 28th 2016</li>
+<li>Bulls@Cavaliers 1989 Eastern Conference First Round Game 5</li>
+<li>Bulls@Celtics 1986 April 20th</li>
+<li>…………</li>
+</ul>
+<h2 id="（五）个人情趣"><a href="#（五）个人情趣" class="headerlink" title="（五）个人情趣"></a>（五）个人情趣</h2><p><strong>学习围棋</strong>  <a href="http://www.weiqitv.com/" target="_blank" rel="external">http://www.weiqitv.com/</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;一、学数学！&quot;&gt;&lt;a href=&quot;#一、学数学！&quot; class=&quot;headerlink&quot; title=&quot;一、学数学！&quot;&gt;&lt;/a&gt;一、学数学！&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;学好数分高代！&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;学好数分高代！&lt;/strong&gt;&lt;b
+    
+    </summary>
+    
+      <category term="个人规划" scheme="http://gabrieldrapor.github.io/categories/%E4%B8%AA%E4%BA%BA%E8%A7%84%E5%88%92/"/>
+    
+    
+      <category term="Plans" scheme="http://gabrieldrapor.github.io/tags/Plans/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算机南北桥</title>
+    <link href="http://gabrieldrapor.github.io/2015/11/25/151125_hardware/"/>
+    <id>http://gabrieldrapor.github.io/2015/11/25/151125_hardware/</id>
+    <published>2015-11-24T16:00:00.000Z</published>
+    <updated>2016-06-01T12:16:52.902Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>南桥和北桥是PC主板芯片组中的两枚芯片。</strong><br><blockquote><p>&emsp;&emsp;“<strong>北桥</strong>（英语：Northbridge）是基于 Intel 处理器的个人电脑主板芯片组两枚芯片中的一枚，<strong>北桥设计用来处理高速信号</strong>，通常处理中央处理器、随机存取存储器、AGP 或 PCI Express 的端口，还有与南桥之间的通信。”</p>
+<footer><strong>wiki</strong><cite><a href="https://zh.wikipedia.org/zh/%E5%8C%97%E6%A1%A5" target="_blank" rel="external">zh.wikipedia.org/zh/%E5%8C%97%E6%A1%A5</a></cite></footer></blockquote></p>
+<blockquote><p>&emsp;&emsp;“<strong>南桥</strong>是基于个人电脑主板芯片组架构中的其中一枚芯片。<strong>南桥设计用来处理低速信号</strong>，通过北桥与中央处理器联系。……<em>但在部分的芯片组架构中，会将南桥的功能与北桥集成在一起；或者将部分功能移到北桥，而部分的南桥功能则删除，将被删除的界面功能使用额外独立的芯片组提供功能。</em>这样使得整个芯片组架构中只会有单一芯片，而不会另外的有南桥芯片。<br>&emsp;&emsp;南桥包含大多数周边设备界面、多媒体控制器和通讯界面功能。例如PCI控制器、ATA控制器、USB控制器、网络控制器、音效控制器。各世代的南桥性能大多雷同，但偶然听到某些南桥会有较差的Serial ATA或USB性能。”<br>&emsp;&emsp;“<em>现行的主板大多将北桥芯片集成进中央处理器的晶粒（die）中</em>，例如Intel的Sandy Bridge和AMD的Fusion处理器（两者均于2011年发表）。2011年推出的LGA 1156和Socket FM1新一代CPU已包含北桥，因此主板只有南桥。<br>由于系统单片机（SoC）的推行，在2013年发表的Intel Haswell笔记本型处理器甚至移除了PCH。SoC本身已包含CPU、北桥和南桥三者的功能。”</p>
+<footer><strong>wiki</strong><cite><a href="https://zh.wikipedia.org/wiki/%E5%8D%97%E6%A1%A5" target="_blank" rel="external">zh.wikipedia.org/wiki/%E5%8D%97%E6%A1%A5</a></cite></footer></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;南桥和北桥是PC主板芯片组中的两枚芯片。&lt;/strong&gt;&lt;br&gt;&lt;blockquote&gt;&lt;p&gt;&amp;emsp;&amp;emsp;“&lt;strong&gt;北桥&lt;/strong&gt;（英语：Northbridge）是基于 Intel 处理器的个人电脑主板芯片组两枚芯片中的一枚，&lt;
+    
+    </summary>
+    
+      <category term="Hardware" scheme="http://gabrieldrapor.github.io/categories/Hardware/"/>
+    
+    
+      <category term="Hardware" scheme="http://gabrieldrapor.github.io/tags/Hardware/"/>
+    
+  </entry>
+  
+</feed>

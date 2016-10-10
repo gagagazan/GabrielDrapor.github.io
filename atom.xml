@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://gabrieldrapor.github.io/"/>
-  <updated>2016-09-20T17:15:58.147Z</updated>
+  <updated>2016-10-10T04:10:50.481Z</updated>
   <id>http://gabrieldrapor.github.io/</id>
   
   <author>
@@ -20,16 +20,16 @@
     <link href="http://gabrieldrapor.github.io/2016/09/20/160920_plans/"/>
     <id>http://gabrieldrapor.github.io/2016/09/20/160920_plans/</id>
     <published>2016-09-19T16:00:00.000Z</published>
-    <updated>2016-09-20T17:15:58.147Z</updated>
+    <updated>2016-10-10T04:10:50.481Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/20160920%20Personal%20Plans.jpeg"></p>
-<p>&emsp;&emsp;&emsp;&emsp;<strong>彼方始有荣光在。</strong></p>
+<p>&emsp;&emsp;&emsp;&emsp;<strong>“彼方始有荣光在。”</strong></p>
 ]]></content>
     
     <summary type="html">
     
       &lt;p&gt;&lt;img src=&quot;http://7xugq7.com1.z0.glb.clouddn.com/20160920%20Personal%20Plans.jpeg&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&lt;strong&gt;彼方始有荣光在。&lt;/stron
+&lt;p&gt;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&lt;strong&gt;“彼方始有荣光在。”&lt;/str
     
     </summary>
     
@@ -209,7 +209,7 @@
     <link href="http://gabrieldrapor.github.io/2016/05/17/160517_re/"/>
     <id>http://gabrieldrapor.github.io/2016/05/17/160517_re/</id>
     <published>2016-05-16T16:00:00.000Z</published>
-    <updated>2016-05-26T15:06:55.855Z</updated>
+    <updated>2016-10-10T04:10:36.057Z</updated>
     
     <content type="html"><![CDATA[<h1 id="一、本专业"><a href="#一、本专业" class="headerlink" title="一、本专业"></a>一、本专业</h1><h4 id="过去的这段时间里"><a href="#过去的这段时间里" class="headerlink" title="过去的这段时间里"></a>过去的这段时间里</h4><blockquote>
 <ul>
@@ -220,7 +220,11 @@
 <ul>
 <li>用C和Python两种编程语言，解决了学校OJ中34道问题（虽然有水题）</li>
 <li>捡起还没看完的《C Primer Plus》接着看，感觉还是很受益的。</li>
-<li>开始读《数据结构与算法分析——C语言描述》，学了基础的算法分析，学习了一点链表的内容，并做了相应的笔记。<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3></li>
+<li>开始读《数据结构与算法分析——C语言描述》，学了基础的算法分析，学习了一点链表的内容，并做了相应的笔记。</li>
+</ul>
+</blockquote>
+<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><blockquote>
+<ul>
 <li>到六月份前配合着MIT的算法导论课，继续自由学习数据结构和算法的内容</li>
 </ul>
 </blockquote>
@@ -543,6 +547,51 @@
   </entry>
   
   <entry>
+    <title>jsp搭建JEECMS</title>
+    <link href="http://gabrieldrapor.github.io/2016/05/03/160503_jsp/"/>
+    <id>http://gabrieldrapor.github.io/2016/05/03/160503_jsp/</id>
+    <published>2016-05-02T16:00:00.000Z</published>
+    <updated>2016-05-30T14:37:24.843Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>架设环境选择：Win8.1 64bit + Apache-tomcat-9.0.0 + MySQL5.7 + JDK 8.0</strong></p>
+<p><strong>*由于搭建时网路的原因，只能在内网搭建，方法基本相同，只需在防火墙和ip等稍作调整即可</strong></p>
+<ul>
+<li>从<a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank" rel="external">http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html</a> 下载JDK，并安装。并配置好环境变量。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image078.png"><br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image080.png"><br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image081.png"><a id="more"></a></li>
+<li>从官方<a href="http://tomcat.apache.org/下载tomcat压缩包" target="_blank" rel="external">http://tomcat.apache.org/下载tomcat压缩包</a><br>下载之后解压<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image083.png"></li>
+<li>打开apache-tomcat-9.0.0.M4\bin目录下的start.bat<br>出现的对话框如果没有自动关闭，且最后一行为Server startup in xxx ms，说明服务器搭建成功(如图)<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image085.png"></li>
+<li>打开浏览器，访问localhost:8080，出现如图界面说明成功了<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image087.png"></li>
+<li>从官网<a href="http://www.jeecms.com/下载jeecms压缩包，下载之后解压" target="_blank" rel="external">http://www.jeecms.com/下载jeecms压缩包，下载之后解压</a><br>将其中ROOT目录替换webapps下的ROOT目录<br>重新启动服务器，在浏览器中访问localhost:8080，出现如图界面。说明配置正确了。<br>勾选“我已经阅读并同意此协议”，点击“下一步”<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image089.png"></li>
+<li><p>之后会出现如图界面，填写相应信息即可。<br>点击“提交”<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image091.png"><br>此时会发现服务器报错了（如图），错误代码500。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image094.png"><br>参考<a href="http://stackoverflow.com/questions/17484764/java-lang-classnotfoundexception-com-mysql-jdbc-driver-in-eclipse" target="_blank" rel="external">http://stackoverflow.com/questions/17484764/java-lang-classnotfoundexception-com-mysql-jdbc-driver-in-eclipse</a> 可以得知是连接器出了问题，应该是MySQL与服务器没有连接好。<br>于是我们需要从<a href="https://dev.mysql.com/downloads/connector/j/下载Connector，下载好之后解压，将其中的mysql-connector-java-5.1.38-bin.jar" target="_blank" rel="external">https://dev.mysql.com/downloads/connector/j/下载Connector，下载好之后解压，将其中的mysql-connector-java-5.1.38-bin.jar</a> 放到Tomcat目录下的lib目录中。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image093.png"></p>
+</li>
+<li><p>重启Tomcat，重新提交数据库信息，然后会出现如下图的界面。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image096.png"></p>
+</li>
+<li>按照指示再次重启Tomcat，访问localhost:8080，可以看到如图界面，说明搭建成功。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image098.png"></li>
+<li>可以登陆管理员账户，账号为admin，密码为password。</li>
+</ul>
+<ul>
+<li>还可以尝试后台登陆。访问<a href="http://localhost:8080/jeeadmin/jeecms/login.do" target="_blank" rel="external">http://localhost:8080/jeeadmin/jeecms/login.do</a> ，可以看到如图界面。输入账号密码。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image102.png"><br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image104.png"></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;架设环境选择：Win8.1 64bit + Apache-tomcat-9.0.0 + MySQL5.7 + JDK 8.0&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;*由于搭建时网路的原因，只能在内网搭建，方法基本相同，只需在防火墙和ip等稍作调整即可&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;从&lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&quot;&gt;http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&lt;/a&gt; 下载JDK，并安装。并配置好环境变量。&lt;br&gt;&lt;img src=http://7xugq7.com1.z0.glb.clouddn.com/image078.png&gt;&lt;br&gt;&lt;img src=http://7xugq7.com1.z0.glb.clouddn.com/image080.png&gt;&lt;br&gt;&lt;img src=http://7xugq7.com1.z0.glb.clouddn.com/image081.png&gt;
+    
+    </summary>
+    
+      <category term="Server" scheme="http://gabrieldrapor.github.io/categories/Server/"/>
+    
+    
+      <category term="Networks" scheme="http://gabrieldrapor.github.io/tags/Networks/"/>
+    
+      <category term="Server" scheme="http://gabrieldrapor.github.io/tags/Server/"/>
+    
+  </entry>
+  
+  <entry>
     <title>php搭建WordPress</title>
     <link href="http://gabrieldrapor.github.io/2016/05/03/160503-php/"/>
     <id>http://gabrieldrapor.github.io/2016/05/03/160503-php/</id>
@@ -583,51 +632,6 @@
 &lt;/ul&gt;
 &lt;h5 id=&quot;3-在PHP中加载MySQL相关的扩展程序&quot;&gt;&lt;a href=&quot;#3-在PHP中加载MySQL相关的扩展程序&quot; class=&quot;headerlink&quot; title=&quot;3.在PHP中加载MySQL相关的扩展程序&quot;&gt;&lt;/a&gt;3.在PHP中加载MySQL相关的扩展程序&lt;/h5&gt;&lt;p&gt;需要在php.ini配置文件中将extension_dir = “ext”和extension=php_mysql.dll前的分号去掉，即取消这两行的注释。这一步的目的可以理解为是将php和MySQL相连。&lt;br&gt;&lt;img src=http://7xugq7.com1.z0.glb.clouddn.com/image056.png&gt;&lt;br&gt;&lt;img src=http://7xugq7.com1.z0.glb.clouddn.com/image054.png&gt;&lt;/p&gt;
 &lt;h5 id=&quot;4-从WordPress官网https-cn-wordpress-org-下载WordPress的压缩包，解压，将其放在服务器根目录下或者在httpd-conf中将目录设为这个目录。&quot;&gt;&lt;a href=&quot;#4-从WordPress官网https-cn-wordpress-org-下载WordPress的压缩包，解压，将其放在服务器根目录下或者在httpd-conf中将目录设为这个目录。&quot; class=&quot;headerlink&quot; title=&quot;4.从WordPress官网https://cn.wordpress.org/下载WordPress的压缩包，解压，将其放在服务器根目录下或者在httpd.conf中将目录设为这个目录。&quot;&gt;&lt;/a&gt;4.从WordPress官网&lt;a href=&quot;https://cn.wordpress.org/下载WordPress的压缩包，解压，将其放在服务器根目录下或者在httpd.conf中将目录设为这个目录。&quot;&gt;https://cn.wordpress.org/下载WordPress的压缩包，解压，将其放在服务器根目录下或者在httpd.conf中将目录设为这个目录。&lt;/a&gt;&lt;/h5&gt;
-    
-    </summary>
-    
-      <category term="Server" scheme="http://gabrieldrapor.github.io/categories/Server/"/>
-    
-    
-      <category term="Networks" scheme="http://gabrieldrapor.github.io/tags/Networks/"/>
-    
-      <category term="Server" scheme="http://gabrieldrapor.github.io/tags/Server/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>jsp搭建JEECMS</title>
-    <link href="http://gabrieldrapor.github.io/2016/05/03/160503_jsp/"/>
-    <id>http://gabrieldrapor.github.io/2016/05/03/160503_jsp/</id>
-    <published>2016-05-02T16:00:00.000Z</published>
-    <updated>2016-05-30T14:37:24.843Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>架设环境选择：Win8.1 64bit + Apache-tomcat-9.0.0 + MySQL5.7 + JDK 8.0</strong></p>
-<p><strong>*由于搭建时网路的原因，只能在内网搭建，方法基本相同，只需在防火墙和ip等稍作调整即可</strong></p>
-<ul>
-<li>从<a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank" rel="external">http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html</a> 下载JDK，并安装。并配置好环境变量。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image078.png"><br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image080.png"><br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image081.png"><a id="more"></a></li>
-<li>从官方<a href="http://tomcat.apache.org/下载tomcat压缩包" target="_blank" rel="external">http://tomcat.apache.org/下载tomcat压缩包</a><br>下载之后解压<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image083.png"></li>
-<li>打开apache-tomcat-9.0.0.M4\bin目录下的start.bat<br>出现的对话框如果没有自动关闭，且最后一行为Server startup in xxx ms，说明服务器搭建成功(如图)<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image085.png"></li>
-<li>打开浏览器，访问localhost:8080，出现如图界面说明成功了<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image087.png"></li>
-<li>从官网<a href="http://www.jeecms.com/下载jeecms压缩包，下载之后解压" target="_blank" rel="external">http://www.jeecms.com/下载jeecms压缩包，下载之后解压</a><br>将其中ROOT目录替换webapps下的ROOT目录<br>重新启动服务器，在浏览器中访问localhost:8080，出现如图界面。说明配置正确了。<br>勾选“我已经阅读并同意此协议”，点击“下一步”<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image089.png"></li>
-<li><p>之后会出现如图界面，填写相应信息即可。<br>点击“提交”<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image091.png"><br>此时会发现服务器报错了（如图），错误代码500。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image094.png"><br>参考<a href="http://stackoverflow.com/questions/17484764/java-lang-classnotfoundexception-com-mysql-jdbc-driver-in-eclipse" target="_blank" rel="external">http://stackoverflow.com/questions/17484764/java-lang-classnotfoundexception-com-mysql-jdbc-driver-in-eclipse</a> 可以得知是连接器出了问题，应该是MySQL与服务器没有连接好。<br>于是我们需要从<a href="https://dev.mysql.com/downloads/connector/j/下载Connector，下载好之后解压，将其中的mysql-connector-java-5.1.38-bin.jar" target="_blank" rel="external">https://dev.mysql.com/downloads/connector/j/下载Connector，下载好之后解压，将其中的mysql-connector-java-5.1.38-bin.jar</a> 放到Tomcat目录下的lib目录中。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image093.png"></p>
-</li>
-<li><p>重启Tomcat，重新提交数据库信息，然后会出现如下图的界面。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image096.png"></p>
-</li>
-<li>按照指示再次重启Tomcat，访问localhost:8080，可以看到如图界面，说明搭建成功。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image098.png"></li>
-<li>可以登陆管理员账户，账号为admin，密码为password。</li>
-</ul>
-<ul>
-<li>还可以尝试后台登陆。访问<a href="http://localhost:8080/jeeadmin/jeecms/login.do" target="_blank" rel="external">http://localhost:8080/jeeadmin/jeecms/login.do</a> ，可以看到如图界面。输入账号密码。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image102.png"><br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image104.png"></li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;架设环境选择：Win8.1 64bit + Apache-tomcat-9.0.0 + MySQL5.7 + JDK 8.0&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;*由于搭建时网路的原因，只能在内网搭建，方法基本相同，只需在防火墙和ip等稍作调整即可&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;从&lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&quot;&gt;http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&lt;/a&gt; 下载JDK，并安装。并配置好环境变量。&lt;br&gt;&lt;img src=http://7xugq7.com1.z0.glb.clouddn.com/image078.png&gt;&lt;br&gt;&lt;img src=http://7xugq7.com1.z0.glb.clouddn.com/image080.png&gt;&lt;br&gt;&lt;img src=http://7xugq7.com1.z0.glb.clouddn.com/image081.png&gt;
     
     </summary>
     

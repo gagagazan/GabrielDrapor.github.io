@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://gabrieldrapor.github.io/"/>
-  <updated>2016-10-10T04:10:50.481Z</updated>
+  <updated>2016-10-11T16:33:34.910Z</updated>
   <id>http://gabrieldrapor.github.io/</id>
   
   <author>
@@ -16,11 +16,88 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Machine Learning Notes 02</title>
+    <link href="http://gabrieldrapor.github.io/2016/10/11/161011_ml_notes2/"/>
+    <id>http://gabrieldrapor.github.io/2016/10/11/161011_ml_notes2/</id>
+    <published>2016-10-10T16:00:00.000Z</published>
+    <updated>2016-10-11T16:33:34.910Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Linear-Regression-with-one-variable"><a href="#Linear-Regression-with-one-variable" class="headerlink" title="Linear Regression with one variable"></a>Linear Regression with one variable</h2><ul>
+<li><p><strong>Hypothesis:</strong><br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <span>$h(\theta) = \theta_{0} + \theta_{1}x_{1}$</span><!-- Has MathJax --></p>
+</li>
+<li><p><strong>Cost function:</strong><br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <span>$J(\theta_{0},\theta_{1})=\frac{1}{2m}\sum_{i=1}^{n}(h_{\theta}(x^{(i)})-y^{(i)})^2$</span><!-- Has MathJax --></p>
+</li>
+</ul>
+<hr>
+<h2 id="Gradient-descent"><a href="#Gradient-descent" class="headerlink" title="Gradient descent"></a><strong>Gradient descent</strong></h2><p><strong>Target:</strong> minimize <span>$J(\theta_{0},\theta_{1})$</span><!-- Has MathJax --> or <span>$J(\theta_{0},\theta_{1},...,\theta_{n})$</span><!-- Has MathJax --></p>
+<ul>
+<li><strong>Gradient algorithm:</strong></li>
+</ul>
+<p>&emsp;&emsp;&emsp;repeat until convergence{<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span>$\theta_{j}:=\theta_{j}-\alpha\frac{\partial }{\partial j}J(\theta_{0},\theta_{1})(for \: j=0\:and\:j=1)$</span><!-- Has MathJax --><br>&emsp;&emsp;&emsp;}<br>&emsp;&emsp;&emsp;&emsp;(<span>$&ldquo;:=&CloseCurlyDoubleQuote;$</span><!-- Has MathJax --> - <em>Assignment</em>&emsp;&emsp;&emsp;&emsp;<span>$\alpha$</span><!-- Has MathJax --> - <em>Learning rate</em>)<br>&emsp;&emsp;<strong>Warning: </strong><span>$\theta_{0}$</span><!-- Has MathJax --> and <span>$\theta_{1}$</span><!-- Has MathJax -->should be updated <strong>Simultaneously</strong> !!!</p>
+<p>&emsp;&emsp;Especially, when gradient descent for linear regression,</p>
+<p>&emsp;&emsp;&emsp;&emsp;&emsp;<span>$\frac{\partial }{\partial j}J(\theta_{0},\theta_{1})=\sum_{i=1}^{n}(h_{\theta}(x^{(i)})-y^{(i)})x^{(i)}$</span><!-- Has MathJax -->&emsp;&emsp;when <span>$i=0$</span><!-- Has MathJax -->, we suppose <span>$x^{(0)}=1$</span><!-- Has MathJax --></p>
+<span>$$</span><!-- Has MathJax -->]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Linear-Regression-with-one-variable&quot;&gt;&lt;a href=&quot;#Linear-Regression-with-one-variable&quot; class=&quot;headerlink&quot; title=&quot;Linear Regression with
+    
+    </summary>
+    
+      <category term="Machine Learning" scheme="http://gabrieldrapor.github.io/categories/Machine-Learning/"/>
+    
+    
+      <category term="《Machine Learning》by Andrew Ng" scheme="http://gabrieldrapor.github.io/tags/%E3%80%8AMachine-Learning%E3%80%8Bby-Andrew-Ng/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Machine Learning Notes 01</title>
+    <link href="http://gabrieldrapor.github.io/2016/10/11/161011_ml_notes1/"/>
+    <id>http://gabrieldrapor.github.io/2016/10/11/161011_ml_notes1/</id>
+    <published>2016-10-10T16:00:00.000Z</published>
+    <updated>2016-10-11T14:22:41.564Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Mordern-Defination"><a href="#Mordern-Defination" class="headerlink" title="Mordern Defination:"></a>Mordern Defination:</h2><blockquote><p>&emsp;&emsp;“A computer program is said to <strong>learn</strong> from experience E with respect to some task T and some performance measure P if its performance on T, as measured by P, improves with experience E.”</p>
+<footer><strong>——Tom Mitchell(1998)</strong></footer></blockquote>
+<hr>
+<h2 id="Types-of-problems-and-tasks"><a href="#Types-of-problems-and-tasks" class="headerlink" title="Types of problems and tasks:"></a>Types of problems and tasks:</h2><p>&emsp;&emsp;“<strong>Supervised learning</strong> is the machine learning task of inferring a function from <strong>labeled</strong> training data.The training data consist of a set of training examples.”</p>
+<blockquote>
+<ul>
+<li>Regression</li>
+<li>Classification<br>……</li>
+</ul>
+</blockquote>
+<p><br\></br\></p>
+<p>&emsp;&emsp;“<strong>Unsupervised learning</strong> is the machine learning task of inferring a function to describe hidden <strong>structure</strong> from unlabeled data.”</p>
+<blockquote>
+<ul>
+<li>Clustering</li>
+<li>…</li>
+</ul>
+</blockquote>
+<p>Besides, there are also <strong>Semi-supervised Learnings</strong> and <strong>Reinforcement learning</strong>.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Mordern-Defination&quot;&gt;&lt;a href=&quot;#Mordern-Defination&quot; class=&quot;headerlink&quot; title=&quot;Mordern Defination:&quot;&gt;&lt;/a&gt;Mordern Defination:&lt;/h2&gt;&lt;blockq
+    
+    </summary>
+    
+      <category term="Machine Learning" scheme="http://gabrieldrapor.github.io/categories/Machine-Learning/"/>
+    
+    
+      <category term="《Machine Learning》by Andrew Ng" scheme="http://gabrieldrapor.github.io/tags/%E3%80%8AMachine-Learning%E3%80%8Bby-Andrew-Ng/"/>
+    
+  </entry>
+  
+  <entry>
     <title>一点规划</title>
     <link href="http://gabrieldrapor.github.io/2016/09/20/160920_plans/"/>
     <id>http://gabrieldrapor.github.io/2016/09/20/160920_plans/</id>
     <published>2016-09-19T16:00:00.000Z</published>
-    <updated>2016-10-10T04:10:50.481Z</updated>
+    <updated>2016-10-11T14:14:11.659Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/20160920%20Personal%20Plans.jpeg"></p>
 <p>&emsp;&emsp;&emsp;&emsp;<strong>“彼方始有荣光在。”</strong></p>
@@ -402,6 +479,51 @@
   </entry>
   
   <entry>
+    <title>jsp搭建JEECMS</title>
+    <link href="http://gabrieldrapor.github.io/2016/05/03/160503_jsp/"/>
+    <id>http://gabrieldrapor.github.io/2016/05/03/160503_jsp/</id>
+    <published>2016-05-02T16:00:00.000Z</published>
+    <updated>2016-05-30T14:37:24.843Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>架设环境选择：Win8.1 64bit + Apache-tomcat-9.0.0 + MySQL5.7 + JDK 8.0</strong></p>
+<p><strong>*由于搭建时网路的原因，只能在内网搭建，方法基本相同，只需在防火墙和ip等稍作调整即可</strong></p>
+<ul>
+<li>从<a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank" rel="external">http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html</a> 下载JDK，并安装。并配置好环境变量。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image078.png"><br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image080.png"><br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image081.png"><a id="more"></a></li>
+<li>从官方<a href="http://tomcat.apache.org/下载tomcat压缩包" target="_blank" rel="external">http://tomcat.apache.org/下载tomcat压缩包</a><br>下载之后解压<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image083.png"></li>
+<li>打开apache-tomcat-9.0.0.M4\bin目录下的start.bat<br>出现的对话框如果没有自动关闭，且最后一行为Server startup in xxx ms，说明服务器搭建成功(如图)<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image085.png"></li>
+<li>打开浏览器，访问localhost:8080，出现如图界面说明成功了<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image087.png"></li>
+<li>从官网<a href="http://www.jeecms.com/下载jeecms压缩包，下载之后解压" target="_blank" rel="external">http://www.jeecms.com/下载jeecms压缩包，下载之后解压</a><br>将其中ROOT目录替换webapps下的ROOT目录<br>重新启动服务器，在浏览器中访问localhost:8080，出现如图界面。说明配置正确了。<br>勾选“我已经阅读并同意此协议”，点击“下一步”<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image089.png"></li>
+<li><p>之后会出现如图界面，填写相应信息即可。<br>点击“提交”<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image091.png"><br>此时会发现服务器报错了（如图），错误代码500。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image094.png"><br>参考<a href="http://stackoverflow.com/questions/17484764/java-lang-classnotfoundexception-com-mysql-jdbc-driver-in-eclipse" target="_blank" rel="external">http://stackoverflow.com/questions/17484764/java-lang-classnotfoundexception-com-mysql-jdbc-driver-in-eclipse</a> 可以得知是连接器出了问题，应该是MySQL与服务器没有连接好。<br>于是我们需要从<a href="https://dev.mysql.com/downloads/connector/j/下载Connector，下载好之后解压，将其中的mysql-connector-java-5.1.38-bin.jar" target="_blank" rel="external">https://dev.mysql.com/downloads/connector/j/下载Connector，下载好之后解压，将其中的mysql-connector-java-5.1.38-bin.jar</a> 放到Tomcat目录下的lib目录中。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image093.png"></p>
+</li>
+<li><p>重启Tomcat，重新提交数据库信息，然后会出现如下图的界面。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image096.png"></p>
+</li>
+<li>按照指示再次重启Tomcat，访问localhost:8080，可以看到如图界面，说明搭建成功。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image098.png"></li>
+<li>可以登陆管理员账户，账号为admin，密码为password。</li>
+</ul>
+<ul>
+<li>还可以尝试后台登陆。访问<a href="http://localhost:8080/jeeadmin/jeecms/login.do" target="_blank" rel="external">http://localhost:8080/jeeadmin/jeecms/login.do</a> ，可以看到如图界面。输入账号密码。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image102.png"><br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image104.png"></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;架设环境选择：Win8.1 64bit + Apache-tomcat-9.0.0 + MySQL5.7 + JDK 8.0&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;*由于搭建时网路的原因，只能在内网搭建，方法基本相同，只需在防火墙和ip等稍作调整即可&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;从&lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&quot;&gt;http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&lt;/a&gt; 下载JDK，并安装。并配置好环境变量。&lt;br&gt;&lt;img src=http://7xugq7.com1.z0.glb.clouddn.com/image078.png&gt;&lt;br&gt;&lt;img src=http://7xugq7.com1.z0.glb.clouddn.com/image080.png&gt;&lt;br&gt;&lt;img src=http://7xugq7.com1.z0.glb.clouddn.com/image081.png&gt;
+    
+    </summary>
+    
+      <category term="Server" scheme="http://gabrieldrapor.github.io/categories/Server/"/>
+    
+    
+      <category term="Networks" scheme="http://gabrieldrapor.github.io/tags/Networks/"/>
+    
+      <category term="Server" scheme="http://gabrieldrapor.github.io/tags/Server/"/>
+    
+  </entry>
+  
+  <entry>
     <title>ASP.NET 搭建 Discuz! NT</title>
     <link href="http://gabrieldrapor.github.io/2016/05/03/160503_asp/"/>
     <id>http://gabrieldrapor.github.io/2016/05/03/160503_asp/</id>
@@ -534,51 +656,6 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;在弹出的对话框中，填写必要信息。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Server" scheme="http://gabrieldrapor.github.io/categories/Server/"/>
-    
-    
-      <category term="Networks" scheme="http://gabrieldrapor.github.io/tags/Networks/"/>
-    
-      <category term="Server" scheme="http://gabrieldrapor.github.io/tags/Server/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>jsp搭建JEECMS</title>
-    <link href="http://gabrieldrapor.github.io/2016/05/03/160503_jsp/"/>
-    <id>http://gabrieldrapor.github.io/2016/05/03/160503_jsp/</id>
-    <published>2016-05-02T16:00:00.000Z</published>
-    <updated>2016-05-30T14:37:24.843Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>架设环境选择：Win8.1 64bit + Apache-tomcat-9.0.0 + MySQL5.7 + JDK 8.0</strong></p>
-<p><strong>*由于搭建时网路的原因，只能在内网搭建，方法基本相同，只需在防火墙和ip等稍作调整即可</strong></p>
-<ul>
-<li>从<a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank" rel="external">http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html</a> 下载JDK，并安装。并配置好环境变量。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image078.png"><br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image080.png"><br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image081.png"><a id="more"></a></li>
-<li>从官方<a href="http://tomcat.apache.org/下载tomcat压缩包" target="_blank" rel="external">http://tomcat.apache.org/下载tomcat压缩包</a><br>下载之后解压<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image083.png"></li>
-<li>打开apache-tomcat-9.0.0.M4\bin目录下的start.bat<br>出现的对话框如果没有自动关闭，且最后一行为Server startup in xxx ms，说明服务器搭建成功(如图)<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image085.png"></li>
-<li>打开浏览器，访问localhost:8080，出现如图界面说明成功了<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image087.png"></li>
-<li>从官网<a href="http://www.jeecms.com/下载jeecms压缩包，下载之后解压" target="_blank" rel="external">http://www.jeecms.com/下载jeecms压缩包，下载之后解压</a><br>将其中ROOT目录替换webapps下的ROOT目录<br>重新启动服务器，在浏览器中访问localhost:8080，出现如图界面。说明配置正确了。<br>勾选“我已经阅读并同意此协议”，点击“下一步”<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image089.png"></li>
-<li><p>之后会出现如图界面，填写相应信息即可。<br>点击“提交”<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image091.png"><br>此时会发现服务器报错了（如图），错误代码500。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image094.png"><br>参考<a href="http://stackoverflow.com/questions/17484764/java-lang-classnotfoundexception-com-mysql-jdbc-driver-in-eclipse" target="_blank" rel="external">http://stackoverflow.com/questions/17484764/java-lang-classnotfoundexception-com-mysql-jdbc-driver-in-eclipse</a> 可以得知是连接器出了问题，应该是MySQL与服务器没有连接好。<br>于是我们需要从<a href="https://dev.mysql.com/downloads/connector/j/下载Connector，下载好之后解压，将其中的mysql-connector-java-5.1.38-bin.jar" target="_blank" rel="external">https://dev.mysql.com/downloads/connector/j/下载Connector，下载好之后解压，将其中的mysql-connector-java-5.1.38-bin.jar</a> 放到Tomcat目录下的lib目录中。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image093.png"></p>
-</li>
-<li><p>重启Tomcat，重新提交数据库信息，然后会出现如下图的界面。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image096.png"></p>
-</li>
-<li>按照指示再次重启Tomcat，访问localhost:8080，可以看到如图界面，说明搭建成功。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image098.png"></li>
-<li>可以登陆管理员账户，账号为admin，密码为password。</li>
-</ul>
-<ul>
-<li>还可以尝试后台登陆。访问<a href="http://localhost:8080/jeeadmin/jeecms/login.do" target="_blank" rel="external">http://localhost:8080/jeeadmin/jeecms/login.do</a> ，可以看到如图界面。输入账号密码。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image102.png"><br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image104.png"></li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;架设环境选择：Win8.1 64bit + Apache-tomcat-9.0.0 + MySQL5.7 + JDK 8.0&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;*由于搭建时网路的原因，只能在内网搭建，方法基本相同，只需在防火墙和ip等稍作调整即可&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;从&lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&quot;&gt;http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&lt;/a&gt; 下载JDK，并安装。并配置好环境变量。&lt;br&gt;&lt;img src=http://7xugq7.com1.z0.glb.clouddn.com/image078.png&gt;&lt;br&gt;&lt;img src=http://7xugq7.com1.z0.glb.clouddn.com/image080.png&gt;&lt;br&gt;&lt;img src=http://7xugq7.com1.z0.glb.clouddn.com/image081.png&gt;
     
     </summary>
     

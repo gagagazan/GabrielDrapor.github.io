@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
   
   <title>Drapor</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -22,11 +22,11 @@
     <link rel="icon" href="/favicon.png">
   
   <link rel="stylesheet" href="/css/style.css">
-  <!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
+  <!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]--><!-- hexo-inject:begin --><!-- hexo-inject:end -->
   
 </head>
 <body>
-<div id="container">
+<!-- hexo-inject:begin --><!-- hexo-inject:end --><div id="container">
   <div id="wrap">
     <header id="header">
   <div id="banner"></div>
@@ -70,6 +70,135 @@
     <div class="outer">
       <section id="main">
   
+    <article id="post-161011_ml_notes2" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/10/11/161011_ml_notes2/" class="article-date">
+  <time datetime="2016-10-10T16:00:00.000Z" itemprop="datePublished">2016-10-11</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Machine-Learning/">Machine Learning</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/10/11/161011_ml_notes2/">Machine Learning Notes 02</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="Linear-Regression-with-one-variable"><a href="#Linear-Regression-with-one-variable" class="headerlink" title="Linear Regression with one variable"></a>Linear Regression with one variable</h2><ul>
+<li><p><strong>Hypothesis:</strong><br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <span>$h(\theta) = \theta_{0} + \theta_{1}x_{1}$</span><!-- Has MathJax --></p>
+</li>
+<li><p><strong>Cost function:</strong><br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <span>$J(\theta_{0},\theta_{1})=\frac{1}{2m}\sum_{i=1}^{n}(h_{\theta}(x^{(i)})-y^{(i)})^2$</span><!-- Has MathJax --></p>
+</li>
+</ul>
+<hr>
+<h2 id="Gradient-descent"><a href="#Gradient-descent" class="headerlink" title="Gradient descent"></a><strong>Gradient descent</strong></h2><p><strong>Target:</strong> minimize <span>$J(\theta_{0},\theta_{1})$</span><!-- Has MathJax --> or <span>$J(\theta_{0},\theta_{1},...,\theta_{n})$</span><!-- Has MathJax --></p>
+<ul>
+<li><strong>Gradient algorithm:</strong></li>
+</ul>
+<p>&emsp;&emsp;&emsp;repeat until convergence{<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span>$\theta_{j}:=\theta_{j}-\alpha\frac{\partial }{\partial j}J(\theta_{0},\theta_{1})(for \: j=0\:and\:j=1)$</span><!-- Has MathJax --><br>&emsp;&emsp;&emsp;}<br>&emsp;&emsp;&emsp;&emsp;(<span>$&ldquo;:=&CloseCurlyDoubleQuote;$</span><!-- Has MathJax --> - <em>Assignment</em>&emsp;&emsp;&emsp;&emsp;<span>$\alpha$</span><!-- Has MathJax --> - <em>Learning rate</em>)<br>&emsp;&emsp;<strong>Warning: </strong><span>$\theta_{0}$</span><!-- Has MathJax --> and <span>$\theta_{1}$</span><!-- Has MathJax -->should be updated <strong>Simultaneously</strong> !!!</p>
+<p>&emsp;&emsp;Especially, when gradient descent for linear regression,</p>
+<p>&emsp;&emsp;&emsp;&emsp;&emsp;<span>$\frac{\partial }{\partial j}J(\theta_{0},\theta_{1})=\sum_{i=1}^{n}(h_{\theta}(x^{(i)})-y^{(i)})x^{(i)}$</span><!-- Has MathJax -->&emsp;&emsp;when <span>$i=0$</span><!-- Has MathJax -->, we suppose <span>$x^{(0)}=1$</span><!-- Has MathJax --></p>
+<span>$$</span><!-- Has MathJax -->
+      
+    </div>
+    <footer class="article-footer">
+      
+        <a data-url="http://gabrieldrapor.github.io/2016/10/11/161011_ml_notes2/" data-id="ciu5m90ls0013x8p3war01pbq" class="article-share-link" data-share="baidu" data-title="Machine Learning Notes 02">分享到</a>
+      
+
+      
+        <a href="http://gabrieldrapor.github.io/2016/10/11/161011_ml_notes2/#ds-thread" class="article-comment-link">评论</a>
+      
+
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/《Machine-Learning》by-Andrew-Ng/">《Machine Learning》by Andrew Ng</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-161011_ml_notes1" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/10/11/161011_ml_notes1/" class="article-date">
+  <time datetime="2016-10-10T16:00:00.000Z" itemprop="datePublished">2016-10-11</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Machine-Learning/">Machine Learning</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/10/11/161011_ml_notes1/">Machine Learning Notes 01</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="Mordern-Defination"><a href="#Mordern-Defination" class="headerlink" title="Mordern Defination:"></a>Mordern Defination:</h2><blockquote><p>&emsp;&emsp;“A computer program is said to <strong>learn</strong> from experience E with respect to some task T and some performance measure P if its performance on T, as measured by P, improves with experience E.”</p>
+<footer><strong>——Tom Mitchell(1998)</strong></footer></blockquote>
+<hr>
+<h2 id="Types-of-problems-and-tasks"><a href="#Types-of-problems-and-tasks" class="headerlink" title="Types of problems and tasks:"></a>Types of problems and tasks:</h2><p>&emsp;&emsp;“<strong>Supervised learning</strong> is the machine learning task of inferring a function from <strong>labeled</strong> training data.The training data consist of a set of training examples.”</p>
+<blockquote>
+<ul>
+<li>Regression</li>
+<li>Classification<br>……</li>
+</ul>
+</blockquote>
+<p><br\></br\></p>
+<p>&emsp;&emsp;“<strong>Unsupervised learning</strong> is the machine learning task of inferring a function to describe hidden <strong>structure</strong> from unlabeled data.”</p>
+<blockquote>
+<ul>
+<li>Clustering</li>
+<li>…</li>
+</ul>
+</blockquote>
+<p>Besides, there are also <strong>Semi-supervised Learnings</strong> and <strong>Reinforcement learning</strong>.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+        <a data-url="http://gabrieldrapor.github.io/2016/10/11/161011_ml_notes1/" data-id="ciu5m90lk000yx8p3th4qmejn" class="article-share-link" data-share="baidu" data-title="Machine Learning Notes 01">分享到</a>
+      
+
+      
+        <a href="http://gabrieldrapor.github.io/2016/10/11/161011_ml_notes1/#ds-thread" class="article-comment-link">评论</a>
+      
+
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/《Machine-Learning》by-Andrew-Ng/">《Machine Learning》by Andrew Ng</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-160920_plans" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/09/20/160920_plans/" class="article-date">
@@ -103,7 +232,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://gabrieldrapor.github.io/2016/09/20/160920_plans/" data-id="ciu3jk5sr000i38p36ki9dg40" class="article-share-link" data-share="baidu" data-title="一点规划">分享到</a>
+        <a data-url="http://gabrieldrapor.github.io/2016/09/20/160920_plans/" data-id="ciu5m90lm0010x8p38x36uxzl" class="article-share-link" data-share="baidu" data-title="一点规划">分享到</a>
       
 
       
@@ -193,7 +322,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://gabrieldrapor.github.io/2016/08/10/160810_re/" data-id="ciu3jk5sz000s38p37vozrznx" class="article-share-link" data-share="baidu" data-title="7.16-8.10">分享到</a>
+        <a data-url="http://gabrieldrapor.github.io/2016/08/10/160810_re/" data-id="ciu5m90lh000tx8p3qtcwahpm" class="article-share-link" data-share="baidu" data-title="7.16-8.10">分享到</a>
       
 
       
@@ -267,7 +396,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://gabrieldrapor.github.io/2016/07/13/160713_re/" data-id="ciu3jk5u3002938p3zotvly05" class="article-share-link" data-share="baidu" data-title="6.26-7.13">分享到</a>
+        <a data-url="http://gabrieldrapor.github.io/2016/07/13/160713_re/" data-id="ciu5m90lf000rx8p3u4q1t8nv" class="article-share-link" data-share="baidu" data-title="6.26-7.13">分享到</a>
       
 
       
@@ -333,7 +462,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://gabrieldrapor.github.io/2016/06/24/160624_re/" data-id="ciu3jk5su000m38p3f2q1hgz7" class="article-share-link" data-share="baidu" data-title="5.17-6.24">分享到</a>
+        <a data-url="http://gabrieldrapor.github.io/2016/06/24/160624_re/" data-id="ciu5m90l9000mx8p3bepfs3zn" class="article-share-link" data-share="baidu" data-title="5.17-6.24">分享到</a>
       
 
       
@@ -435,7 +564,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://gabrieldrapor.github.io/2016/05/17/160517_re/" data-id="ciu3jk5se000b38p3oy7kwqm5" class="article-share-link" data-share="baidu" data-title="4.17-5.17">分享到</a>
+        <a data-url="http://gabrieldrapor.github.io/2016/05/17/160517_re/" data-id="ciu5m90lb000nx8p3vdop7pwi" class="article-share-link" data-share="baidu" data-title="4.17-5.17">分享到</a>
       
 
       
@@ -496,7 +625,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://gabrieldrapor.github.io/2016/05/13/160513_dsa-ch1/" data-id="ciu3jk5sc000838p32r1suybr" class="article-share-link" data-share="baidu" data-title="第一章 引论">分享到</a>
+        <a data-url="http://gabrieldrapor.github.io/2016/05/13/160513_dsa-ch1/" data-id="ciu5m90l1000hx8p3msw58n5q" class="article-share-link" data-share="baidu" data-title="第一章 引论">分享到</a>
       
 
       
@@ -553,7 +682,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://gabrieldrapor.github.io/2016/05/13/160513_dsa-ch2/" data-id="ciu3jk5sw000o38p3sieofnxq" class="article-share-link" data-share="baidu" data-title="第二章 算法分析">分享到</a>
+        <a data-url="http://gabrieldrapor.github.io/2016/05/13/160513_dsa-ch2/" data-id="ciu5m90l6000ix8p3uk59bfhw" class="article-share-link" data-share="baidu" data-title="第二章 算法分析">分享到</a>
       
 
       
@@ -562,71 +691,6 @@
 
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/《数据结构与算法分析——C语言描述》/">《数据结构与算法分析——C语言描述》</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/笔记/">笔记</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-160503_asp" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/05/03/160503_asp/" class="article-date">
-  <time datetime="2016-05-02T16:00:00.000Z" itemprop="datePublished">2016-05-03</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Server/">Server</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/05/03/160503_asp/">ASP.NET 搭建 Discuz! NT</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><strong>架设环境选择：Windows 7 32bit + IIS 7.0 + Microsoft SQL Server 2014 Express</strong></p>
-<p><strong>*由于搭建时网路的原因，只能在内网搭建，方法基本相同，只需在防火墙和ip等稍作调整即可</strong></p>
-<h5 id="1-配置IIS。"><a href="#1-配置IIS。" class="headerlink" title="1.配置IIS。"></a>1.配置IIS。</h5><p>&emsp;&emsp; IIS是我们的服务器应用程序，我们首先需要打开它。</p>
-<ul>
-<li>首先在控制面板-程序和功能-打开或关闭Windows功能（如图），勾选“Internet Information Services可承载的Web核心”，“Internet信息服务”。</li>
-</ul>
-<p>   <img src="http://7xugq7.com1.z0.glb.clouddn.com/image004.png"></p>
-<ul>
-<li><p>在管理工具中找到“Internet 信息服务(IIS)管理器”，打开它，在左侧的“连接”栏下面找“个人电脑名&gt;网站”，右键点击网站，选择“添加网站”（如图）</p>
-<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image001.png"></p>
-</li>
-</ul>
-<p>在弹出的对话框中，填写必要信息。</p>
-        
-          <p class="article-more-link">
-            <a href="/2016/05/03/160503_asp/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      
-        <a data-url="http://gabrieldrapor.github.io/2016/05/03/160503_asp/" data-id="ciu3jk5sq000h38p30ft0y8rz" class="article-share-link" data-share="baidu" data-title="ASP.NET 搭建 Discuz! NT">分享到</a>
-      
-
-      
-        <a href="http://gabrieldrapor.github.io/2016/05/03/160503_asp/#ds-thread" class="article-comment-link">评论</a>
-      
-
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Networks/">Networks</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Server/">Server</a></li></ul>
 
     </footer>
   </div>
@@ -674,76 +738,11 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://gabrieldrapor.github.io/2016/05/03/160503_jsp/" data-id="ciu3jk5s8000538p3igd4kvls" class="article-share-link" data-share="baidu" data-title="jsp搭建JEECMS">分享到</a>
+        <a data-url="http://gabrieldrapor.github.io/2016/05/03/160503_jsp/" data-id="ciu5m90kv000dx8p36ohdi9oq" class="article-share-link" data-share="baidu" data-title="jsp搭建JEECMS">分享到</a>
       
 
       
         <a href="http://gabrieldrapor.github.io/2016/05/03/160503_jsp/#ds-thread" class="article-comment-link">评论</a>
-      
-
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Networks/">Networks</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Server/">Server</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-160503-php" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/05/03/160503-php/" class="article-date">
-  <time datetime="2016-05-02T16:00:00.000Z" itemprop="datePublished">2016-05-03</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Server/">Server</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/05/03/160503-php/">php搭建WordPress</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><strong>架设环境选择：Win8.1 64bit + Apache2.2.25 + MySQL5.7 + PHP5.6.20</strong></p>
-<p><strong>*由于搭建时网路的原因，只能在内网搭建，方法基本相同，只需在防火墙和ip等稍作调整即可</strong></p>
-<h5 id="1．安装Apache，MySQL和php"><a href="#1．安装Apache，MySQL和php" class="headerlink" title="1．安装Apache，MySQL和php"></a>1．安装Apache，MySQL和php</h5><p> 不多赘述，但需要注意的是：</p>
-<ul>
-<li>Apache安装过程，中会有端口设置，默认是80，为避免冲突可将其修改。安装后也可以在httpd.conf中修改监听的端口</li>
-<li>php安装完成后将安装目录下的php-development.ini重命名为php.ini    </li>
-<li>在MySQL安装过程中会要求设置管理员账号，设置之后要记住。</li>
-</ul>
-<h5 id="2-在Apache中添加php模块"><a href="#2-在Apache中添加php模块" class="headerlink" title="2.在Apache中添加php模块"></a>2.在Apache中添加php模块</h5><ul>
-<li>打开apache安装目录下conf目录中的httpd.conf，具体方法参照<a href="http://php.net/manual/zh/install.windows.apache2.php">http://php.net/manual/zh/install.windows.apache2.php</a> ，我采用的是添加cgi模块的方式，添加的部分如右图<br><img src=http://7xugq7.com1.z0.glb.clouddn.com/image052.png></li>
-</ul>
-<h5 id="3-在PHP中加载MySQL相关的扩展程序"><a href="#3-在PHP中加载MySQL相关的扩展程序" class="headerlink" title="3.在PHP中加载MySQL相关的扩展程序"></a>3.在PHP中加载MySQL相关的扩展程序</h5><p>需要在php.ini配置文件中将extension_dir = “ext”和extension=php_mysql.dll前的分号去掉，即取消这两行的注释。这一步的目的可以理解为是将php和MySQL相连。<br><img src=http://7xugq7.com1.z0.glb.clouddn.com/image056.png><br><img src=http://7xugq7.com1.z0.glb.clouddn.com/image054.png></p>
-<h5 id="4-从WordPress官网https-cn-wordpress-org-下载WordPress的压缩包，解压，将其放在服务器根目录下或者在httpd-conf中将目录设为这个目录。"><a href="#4-从WordPress官网https-cn-wordpress-org-下载WordPress的压缩包，解压，将其放在服务器根目录下或者在httpd-conf中将目录设为这个目录。" class="headerlink" title="4.从WordPress官网https://cn.wordpress.org/下载WordPress的压缩包，解压，将其放在服务器根目录下或者在httpd.conf中将目录设为这个目录。"></a>4.从WordPress官网<a href="https://cn.wordpress.org/下载WordPress的压缩包，解压，将其放在服务器根目录下或者在httpd.conf中将目录设为这个目录。">https://cn.wordpress.org/下载WordPress的压缩包，解压，将其放在服务器根目录下或者在httpd.conf中将目录设为这个目录。</a></h5>
-        
-          <p class="article-more-link">
-            <a href="/2016/05/03/160503-php/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      
-        <a data-url="http://gabrieldrapor.github.io/2016/05/03/160503-php/" data-id="ciu3jk5s9000638p3h1rinpog" class="article-share-link" data-share="baidu" data-title="php搭建WordPress">分享到</a>
-      
-
-      
-        <a href="http://gabrieldrapor.github.io/2016/05/03/160503-php/#ds-thread" class="article-comment-link">评论</a>
       
 
       
@@ -769,7 +768,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">分类</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/HTTP/">HTTP</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hardware/">Hardware</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Server/">Server</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/《数据结构与算法分析——C语言描述》/">《数据结构与算法分析——C语言描述》</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/个人规划/">个人规划</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/学习记录/">学习记录</a><span class="category-list-count">5</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/HTTP/">HTTP</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hardware/">Hardware</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Machine-Learning/">Machine Learning</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Server/">Server</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/《数据结构与算法分析——C语言描述》/">《数据结构与算法分析——C语言描述》</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/个人规划/">个人规划</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/学习记录/">学习记录</a><span class="category-list-count">5</span></li></ul>
     </div>
   </div>
 
@@ -778,7 +777,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">标签云</h3>
     <div class="widget tagcloud">
-      <a href="/tags/Hardware/" style="font-size: 10px;">Hardware</a> <a href="/tags/Networks/" style="font-size: 16px;">Networks</a> <a href="/tags/Paths/" style="font-size: 18px;">Paths</a> <a href="/tags/Plans/" style="font-size: 20px;">Plans</a> <a href="/tags/Server/" style="font-size: 14px;">Server</a> <a href="/tags/《数据结构与算法分析——C语言描述》/" style="font-size: 12px;">《数据结构与算法分析——C语言描述》</a> <a href="/tags/笔记/" style="font-size: 12px;">笔记</a>
+      <a href="/tags/Hardware/" style="font-size: 10px;">Hardware</a> <a href="/tags/Networks/" style="font-size: 16px;">Networks</a> <a href="/tags/Paths/" style="font-size: 18px;">Paths</a> <a href="/tags/Plans/" style="font-size: 20px;">Plans</a> <a href="/tags/Server/" style="font-size: 14px;">Server</a> <a href="/tags/《Machine-Learning》by-Andrew-Ng/" style="font-size: 12px;">《Machine Learning》by Andrew Ng</a> <a href="/tags/《数据结构与算法分析——C语言描述》/" style="font-size: 12px;">《数据结构与算法分析——C语言描述》</a> <a href="/tags/笔记/" style="font-size: 12px;">笔记</a>
     </div>
   </div>
 
@@ -787,7 +786,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">九月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">八月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">七月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">六月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">五月 2016</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">四月 2016</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">三月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">十一月 2015</a><span class="archive-list-count">1</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">十月 2016</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">九月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">八月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">七月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">六月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">五月 2016</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">四月 2016</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">三月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">十一月 2015</a><span class="archive-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -799,6 +798,14 @@
       <ul>
         
           <li>
+            <a href="/2016/10/11/161011_ml_notes2/">Machine Learning Notes 02</a>
+          </li>
+        
+          <li>
+            <a href="/2016/10/11/161011_ml_notes1/">Machine Learning Notes 01</a>
+          </li>
+        
+          <li>
             <a href="/2016/09/20/160920_plans/">一点规划</a>
           </li>
         
@@ -808,14 +815,6 @@
         
           <li>
             <a href="/2016/07/13/160713_re/">6.26-7.13</a>
-          </li>
-        
-          <li>
-            <a href="/2016/06/24/160624_re/">5.17-6.24</a>
-          </li>
-        
-          <li>
-            <a href="/2016/05/17/160517_re/">4.17-5.17</a>
           </li>
         
       </ul>
@@ -947,12 +946,48 @@ MathJax.Hub.Queue(function() {
         });
 </script>
 
-<script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.5.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
 
 <script src="/js/script.js"></script>
 
-</div>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
+        tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno",skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']},
+        TeX: {  noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, Macros: { href: "{}" } },
+        messageStyle: "none"
+    }); 
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+</div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config("");
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
 </body>
 </html>

@@ -18,7 +18,7 @@ Cost function:&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp; $J(\t
 Hypothesis:&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp; $h(\theta) = \theta_{0} + \theta_{1}x_{1}$
 
 Cost function:&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp; $J(\theta_{0},\theta_">
-<meta property="og:updated_time" content="2016-10-11T16:33:34.910Z">
+<meta property="og:updated_time" content="2016-10-12T04:51:08.020Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Machine Learning Notes 02">
 <meta name="twitter:description" content="Linear Regression with one variable
@@ -115,10 +115,12 @@ Cost function:&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp; $J(\t
 <ul>
 <li><strong>Gradient algorithm:</strong></li>
 </ul>
-<p>&emsp;&emsp;&emsp;repeat until convergence{<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span>$\theta_{j}:=\theta_{j}-\alpha\frac{\partial }{\partial j}J(\theta_{0},\theta_{1})(for \: j=0\:and\:j=1)$</span><!-- Has MathJax --><br>&emsp;&emsp;&emsp;}<br>&emsp;&emsp;&emsp;&emsp;(<span>$&ldquo;:=&CloseCurlyDoubleQuote;$</span><!-- Has MathJax --> - <em>Assignment</em>&emsp;&emsp;&emsp;&emsp;<span>$\alpha$</span><!-- Has MathJax --> - <em>Learning rate</em>)<br>&emsp;&emsp;<strong>Warning: </strong><span>$\theta_{0}$</span><!-- Has MathJax --> and <span>$\theta_{1}$</span><!-- Has MathJax -->should be updated <strong>Simultaneously</strong> !!!</p>
+<p>&emsp;&emsp;&emsp;repeat until convergence{<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span>$\theta_{j}:=\theta_{j}-\alpha\frac{\partial }{\partial j}J(\theta_{0},\theta_{1})(for \: j=0\:and\:j=1)$</span><!-- Has MathJax --><br>&emsp;&emsp;&emsp;}<br>&emsp;&emsp;&emsp;&emsp;( <span>$:=$</span><!-- Has MathJax --> - <em>Assignment</em>&emsp;&emsp;&emsp;&emsp;<span>$\alpha$</span><!-- Has MathJax --> - <em>Learning rate</em> )<br>&emsp;&emsp;<strong>Warning: </strong><span>$\theta_{0}$</span><!-- Has MathJax --> and <span>$\theta_{1}$</span><!-- Has MathJax -->should be updated <strong>Simultaneously</strong> !!!</p>
 <p>&emsp;&emsp;Especially, when gradient descent for linear regression,</p>
 <p>&emsp;&emsp;&emsp;&emsp;&emsp;<span>$\frac{\partial }{\partial j}J(\theta_{0},\theta_{1})=\sum_{i=1}^{n}(h_{\theta}(x^{(i)})-y^{(i)})x^{(i)}$</span><!-- Has MathJax -->&emsp;&emsp;when <span>$i=0$</span><!-- Has MathJax -->, we suppose <span>$x^{(0)}=1$</span><!-- Has MathJax --></p>
-<span>$$</span><!-- Has MathJax -->
+<!-- 
+<span>$$</span><!-- Has MathJax --> –&gt;
+
       
     </div>
     <footer class="article-footer">

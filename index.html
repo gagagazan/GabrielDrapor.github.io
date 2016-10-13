@@ -107,10 +107,12 @@
 <ul>
 <li><strong>Gradient algorithm:</strong></li>
 </ul>
-<p>&emsp;&emsp;&emsp;repeat until convergence{<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span>$\theta_{j}:=\theta_{j}-\alpha\frac{\partial }{\partial j}J(\theta_{0},\theta_{1})(for \: j=0\:and\:j=1)$</span><!-- Has MathJax --><br>&emsp;&emsp;&emsp;}<br>&emsp;&emsp;&emsp;&emsp;(<span>$&ldquo;:=&CloseCurlyDoubleQuote;$</span><!-- Has MathJax --> - <em>Assignment</em>&emsp;&emsp;&emsp;&emsp;<span>$\alpha$</span><!-- Has MathJax --> - <em>Learning rate</em>)<br>&emsp;&emsp;<strong>Warning: </strong><span>$\theta_{0}$</span><!-- Has MathJax --> and <span>$\theta_{1}$</span><!-- Has MathJax -->should be updated <strong>Simultaneously</strong> !!!</p>
+<p>&emsp;&emsp;&emsp;repeat until convergence{<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span>$\theta_{j}:=\theta_{j}-\alpha\frac{\partial }{\partial j}J(\theta_{0},\theta_{1})(for \: j=0\:and\:j=1)$</span><!-- Has MathJax --><br>&emsp;&emsp;&emsp;}<br>&emsp;&emsp;&emsp;&emsp;( <span>$:=$</span><!-- Has MathJax --> - <em>Assignment</em>&emsp;&emsp;&emsp;&emsp;<span>$\alpha$</span><!-- Has MathJax --> - <em>Learning rate</em> )<br>&emsp;&emsp;<strong>Warning: </strong><span>$\theta_{0}$</span><!-- Has MathJax --> and <span>$\theta_{1}$</span><!-- Has MathJax -->should be updated <strong>Simultaneously</strong> !!!</p>
 <p>&emsp;&emsp;Especially, when gradient descent for linear regression,</p>
 <p>&emsp;&emsp;&emsp;&emsp;&emsp;<span>$\frac{\partial }{\partial j}J(\theta_{0},\theta_{1})=\sum_{i=1}^{n}(h_{\theta}(x^{(i)})-y^{(i)})x^{(i)}$</span><!-- Has MathJax -->&emsp;&emsp;when <span>$i=0$</span><!-- Has MathJax -->, we suppose <span>$x^{(0)}=1$</span><!-- Has MathJax --></p>
-<span>$$</span><!-- Has MathJax -->
+<!-- 
+<span>$$</span><!-- Has MathJax --> –&gt;
+
       
     </div>
     <footer class="article-footer">
@@ -161,7 +163,7 @@
         <h2 id="Mordern-Defination"><a href="#Mordern-Defination" class="headerlink" title="Mordern Defination:"></a>Mordern Defination:</h2><blockquote><p>&emsp;&emsp;“A computer program is said to <strong>learn</strong> from experience E with respect to some task T and some performance measure P if its performance on T, as measured by P, improves with experience E.”</p>
 <footer><strong>——Tom Mitchell(1998)</strong></footer></blockquote>
 <hr>
-<h2 id="Types-of-problems-and-tasks"><a href="#Types-of-problems-and-tasks" class="headerlink" title="Types of problems and tasks:"></a>Types of problems and tasks:</h2><p>&emsp;&emsp;“<strong>Supervised learning</strong> is the machine learning task of inferring a function from <strong>labeled</strong> training data.The training data consist of a set of training examples.”</p>
+<h2 id="Types-of-problems-and-tasks"><a href="#Types-of-problems-and-tasks" class="headerlink" title="Types of problems and tasks:"></a>Types of problems and tasks:</h2><p>“<strong>Supervised learning</strong> is the machine learning task of inferring a function from <strong>labeled</strong> training data.The training data consist of a set of training examples.”</p>
 <blockquote>
 <ul>
 <li>Regression</li>
@@ -169,7 +171,7 @@
 </ul>
 </blockquote>
 <p><br\></br\></p>
-<p>&emsp;&emsp;“<strong>Unsupervised learning</strong> is the machine learning task of inferring a function to describe hidden <strong>structure</strong> from unlabeled data.”</p>
+<p>“<strong>Unsupervised learning</strong> is the machine learning task of inferring a function to describe hidden <strong>structure</strong> from unlabeled data.”</p>
 <blockquote>
 <ul>
 <li>Clustering</li>
@@ -581,6 +583,62 @@
 
 
   
+    <article id="post-160513_dsa-ch2" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/05/14/160513_dsa-ch2/" class="article-date">
+  <time datetime="2016-05-13T16:00:00.000Z" itemprop="datePublished">2016-05-14</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/《数据结构与算法分析——C语言描述》/">《数据结构与算法分析——C语言描述》</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/05/14/160513_dsa-ch2/">第二章 算法分析</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><strong>2.4.3最大子序列和问题的解</strong></p>
+<blockquote>
+<p><strong>最大的子序列和问题</strong>：给定整数A1，A2，……，AN（可能有负数），求∑(k=i)^j A_k  的最大值（为方便起见，如果所有整数均为负数，则最大子序列和为0）</p>
+</blockquote>
+        
+          <p class="article-more-link">
+            <a href="/2016/05/14/160513_dsa-ch2/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      
+        <a data-url="http://gabrieldrapor.github.io/2016/05/14/160513_dsa-ch2/" data-id="ciu5m90l6000ix8p3uk59bfhw" class="article-share-link" data-share="baidu" data-title="第二章 算法分析">分享到</a>
+      
+
+      
+        <a href="http://gabrieldrapor.github.io/2016/05/14/160513_dsa-ch2/#ds-thread" class="article-comment-link">评论</a>
+      
+
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/《数据结构与算法分析——C语言描述》/">《数据结构与算法分析——C语言描述》</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/笔记/">笔记</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-160513_dsa-ch1" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/05/13/160513_dsa-ch1/" class="article-date">
@@ -642,63 +700,6 @@
 
 
   
-    <article id="post-160513_dsa-ch2" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/05/13/160513_dsa-ch2/" class="article-date">
-  <time datetime="2016-05-12T16:00:00.000Z" itemprop="datePublished">2016-05-13</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/《数据结构与算法分析——C语言描述》/">《数据结构与算法分析——C语言描述》</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/05/13/160513_dsa-ch2/">第二章 算法分析</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><strong>2.4.3最大子序列和问题的解</strong></p>
-<blockquote>
-<p><strong>最大的子序列和问题</strong>：给定整数A1，A2，……，AN（可能有负数），求∑(k=i)^j A_k  的最大值（为方便起见，如果所有整数均为负数，则最大子序列和为0）</p>
-</blockquote>
-<p><strong>• 算法3</strong><br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//T(N)=O(N log N) </span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">int</span> <span class="title">MaxSubSum</span><span class="params">( <span class="keyword">const</span> <span class="keyword">int</span> A[], <span class="keyword">int</span> Left,<span class="keyword">int</span> Right )</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> MaxLeftSum,MaxRightSum;</span><br><span class="line">	<span class="keyword">int</span> MaxLeftBorderSum,MaxRightBorderSum;</span><br><span class="line">	<span class="keyword">int</span> LeftBorderSum,RightBorderSum;</span><br><span class="line">	<span class="keyword">int</span> Center,i;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span>(Left==Right)   <span class="comment">//Base Case,即'基准情形'</span></span><br><span class="line">	<span class="keyword">if</span> (A[Left]&gt;<span class="number">0</span>)</span><br><span class="line">		<span class="keyword">return</span> A[Left];</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">		<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">	Center = (Left + Right)/<span class="number">2</span>;</span><br><span class="line">	MaxLeftSum=MaxSubSum(A,Left,Center);<span class="comment">//左边中最大的子序列和</span></span><br><span class="line">	MaxRightSum=MaxSubSum(A,Center+<span class="number">1</span>,Right);<span class="comment">//右边中最大的子序列和</span></span><br><span class="line">	MaxLeftBorderSum = <span class="number">0</span>; LeftBorderSum = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(i=Center;i&gt;=Left;i--)<span class="comment">//从中心开始向左找最大子序列和</span></span><br><span class="line">	&#123;</span><br><span class="line">		LeftBorderSum+=A[i];</span><br><span class="line">		<span class="keyword">if</span>(LeftBorderSum&gt;MaxLeftBorderSum)</span><br><span class="line">		MaxLeftBorderSum= LeftBorderSum;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	MaxRightBorderSum = <span class="number">0</span>; RightBorderSum = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(i=Center+<span class="number">1</span>;i&lt;=Right;i+　+)<span class="comment">//从中心开始向右找最大子序列和</span></span><br><span class="line">	&#123;</span><br><span class="line">		RightBorderSum+=A[i];</span><br><span class="line">		<span class="keyword">if</span>(RightBorderSum&gt;MaxRightBorderSum)</span><br><span class="line">		MaxRightBorderSum=RightBorderSum;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> Max3(MaxLeftSum,MaxRightSum,MaxLeftBorderSum + MaxRightBorderSum);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">MaxSubsequenceSum</span><span class="params">(<span class="keyword">const</span> <span class="keyword">int</span> A[], <span class="keyword">int</span> N)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> MaxSubSum(A , <span class="number">0</span> , N - <span class="number">1</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">Max3</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b,<span class="keyword">int</span> c)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span> (a&gt;b)</span><br><span class="line">	<span class="keyword">if</span> (a&gt;c) <span class="keyword">return</span> a;</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">return</span> c;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">	<span class="keyword">if</span> (c&gt;b) <span class="keyword">return</span> c;</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">return</span> b;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-        
-          <p class="article-more-link">
-            <a href="/2016/05/13/160513_dsa-ch2/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      
-        <a data-url="http://gabrieldrapor.github.io/2016/05/13/160513_dsa-ch2/" data-id="ciu5m90l6000ix8p3uk59bfhw" class="article-share-link" data-share="baidu" data-title="第二章 算法分析">分享到</a>
-      
-
-      
-        <a href="http://gabrieldrapor.github.io/2016/05/13/160513_dsa-ch2/#ds-thread" class="article-comment-link">评论</a>
-      
-
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/《数据结构与算法分析——C语言描述》/">《数据结构与算法分析——C语言描述》</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/笔记/">笔记</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
     <article id="post-160503_jsp" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/05/03/160503_jsp/" class="article-date">
@@ -725,10 +726,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><strong>架设环境选择：Win8.1 64bit + Apache-tomcat-9.0.0 + MySQL5.7 + JDK 8.0</strong></p>
-<p><strong>*由于搭建时网路的原因，只能在内网搭建，方法基本相同，只需在防火墙和ip等稍作调整即可</strong></p>
-<ul>
-<li>从<a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html</a> 下载JDK，并安装。并配置好环境变量。<br><img src=http://7xugq7.com1.z0.glb.clouddn.com/image078.png><br><img src=http://7xugq7.com1.z0.glb.clouddn.com/image080.png><br><img src=http://7xugq7.com1.z0.glb.clouddn.com/image081.png>
+        <p><strong>架设环境选择：Win8.1 64bit + Apache-tomcat-9.0.0 + MySQL5.7 + JDK 8.0</strong><br>
         
           <p class="article-more-link">
             <a href="/2016/05/03/160503_jsp/#more">Read More</a>

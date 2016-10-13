@@ -8,26 +8,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="2.4.3最大子序列和问题的解
 
-最大的子序列和问题：给定整数A1，A2，……，AN（可能有负数），求∑(k=i)^j A_k  的最大值（为方便起见，如果所有整数均为负数，则最大子序列和为0）
-
-• 算法3123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051//T">
+最大的子序列和问题：给定整数A1，A2，……，AN（可能有负数），求∑(k=i)^j A_k  的最大值（为方便起见，如果所有整数均为负数，则最大子序列和为0）">
 <meta property="og:type" content="article">
 <meta property="og:title" content="第二章 算法分析">
-<meta property="og:url" content="http://gabrieldrapor.github.io/2016/05/13/160513_dsa-ch2/index.html">
+<meta property="og:url" content="http://gabrieldrapor.github.io/2016/05/14/160513_dsa-ch2/index.html">
 <meta property="og:site_name" content="Drapor">
 <meta property="og:description" content="2.4.3最大子序列和问题的解
 
-最大的子序列和问题：给定整数A1，A2，……，AN（可能有负数），求∑(k=i)^j A_k  的最大值（为方便起见，如果所有整数均为负数，则最大子序列和为0）
-
-• 算法3123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051//T">
-<meta property="og:updated_time" content="2016-06-01T12:20:10.596Z">
+最大的子序列和问题：给定整数A1，A2，……，AN（可能有负数），求∑(k=i)^j A_k  的最大值（为方便起见，如果所有整数均为负数，则最大子序列和为0）">
+<meta property="og:updated_time" content="2016-10-12T04:54:09.470Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="第二章 算法分析">
 <meta name="twitter:description" content="2.4.3最大子序列和问题的解
 
-最大的子序列和问题：给定整数A1，A2，……，AN（可能有负数），求∑(k=i)^j A_k  的最大值（为方便起见，如果所有整数均为负数，则最大子序列和为0）
-
-• 算法3123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051//T">
+最大的子序列和问题：给定整数A1，A2，……，AN（可能有负数），求∑(k=i)^j A_k  的最大值（为方便起见，如果所有整数均为负数，则最大子序列和为0）">
   
     <link rel="alternative" href="/atom.xml" title="Drapor" type="application/atom+xml">
   
@@ -83,8 +77,8 @@
     <div class="outer">
       <section id="main"><article id="post-160513_dsa-ch2" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2016/05/13/160513_dsa-ch2/" class="article-date">
-  <time datetime="2016-05-12T16:00:00.000Z" itemprop="datePublished">2016-05-13</time>
+    <a href="/2016/05/14/160513_dsa-ch2/" class="article-date">
+  <time datetime="2016-05-13T16:00:00.000Z" itemprop="datePublished">2016-05-14</time>
 </a>
     
   <div class="article-category">
@@ -111,8 +105,8 @@
 <blockquote>
 <p><strong>最大的子序列和问题</strong>：给定整数A1，A2，……，AN（可能有负数），求∑(k=i)^j A_k  的最大值（为方便起见，如果所有整数均为负数，则最大子序列和为0）</p>
 </blockquote>
-<p><strong>• 算法3</strong><br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//T(N)=O(N log N) </span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">int</span> <span class="title">MaxSubSum</span><span class="params">( <span class="keyword">const</span> <span class="keyword">int</span> A[], <span class="keyword">int</span> Left,<span class="keyword">int</span> Right )</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> MaxLeftSum,MaxRightSum;</span><br><span class="line">	<span class="keyword">int</span> MaxLeftBorderSum,MaxRightBorderSum;</span><br><span class="line">	<span class="keyword">int</span> LeftBorderSum,RightBorderSum;</span><br><span class="line">	<span class="keyword">int</span> Center,i;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span>(Left==Right)   <span class="comment">//Base Case,即'基准情形'</span></span><br><span class="line">	<span class="keyword">if</span> (A[Left]&gt;<span class="number">0</span>)</span><br><span class="line">		<span class="keyword">return</span> A[Left];</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">		<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">	Center = (Left + Right)/<span class="number">2</span>;</span><br><span class="line">	MaxLeftSum=MaxSubSum(A,Left,Center);<span class="comment">//左边中最大的子序列和</span></span><br><span class="line">	MaxRightSum=MaxSubSum(A,Center+<span class="number">1</span>,Right);<span class="comment">//右边中最大的子序列和</span></span><br><span class="line">	MaxLeftBorderSum = <span class="number">0</span>; LeftBorderSum = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(i=Center;i&gt;=Left;i--)<span class="comment">//从中心开始向左找最大子序列和</span></span><br><span class="line">	&#123;</span><br><span class="line">		LeftBorderSum+=A[i];</span><br><span class="line">		<span class="keyword">if</span>(LeftBorderSum&gt;MaxLeftBorderSum)</span><br><span class="line">		MaxLeftBorderSum= LeftBorderSum;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	MaxRightBorderSum = <span class="number">0</span>; RightBorderSum = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(i=Center+<span class="number">1</span>;i&lt;=Right;i+　+)<span class="comment">//从中心开始向右找最大子序列和</span></span><br><span class="line">	&#123;</span><br><span class="line">		RightBorderSum+=A[i];</span><br><span class="line">		<span class="keyword">if</span>(RightBorderSum&gt;MaxRightBorderSum)</span><br><span class="line">		MaxRightBorderSum=RightBorderSum;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> Max3(MaxLeftSum,MaxRightSum,MaxLeftBorderSum + MaxRightBorderSum);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">MaxSubsequenceSum</span><span class="params">(<span class="keyword">const</span> <span class="keyword">int</span> A[], <span class="keyword">int</span> N)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> MaxSubSum(A , <span class="number">0</span> , N - <span class="number">1</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">Max3</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b,<span class="keyword">int</span> c)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span> (a&gt;b)</span><br><span class="line">	<span class="keyword">if</span> (a&gt;c) <span class="keyword">return</span> a;</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">return</span> c;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">	<span class="keyword">if</span> (c&gt;b) <span class="keyword">return</span> c;</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">return</span> b;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 <a id="more"></a>
+<p><strong>• 算法3</strong><br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//T(N)=O(N log N) </span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">int</span> <span class="title">MaxSubSum</span><span class="params">( <span class="keyword">const</span> <span class="keyword">int</span> A[], <span class="keyword">int</span> Left,<span class="keyword">int</span> Right )</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> MaxLeftSum,MaxRightSum;</span><br><span class="line">	<span class="keyword">int</span> MaxLeftBorderSum,MaxRightBorderSum;</span><br><span class="line">	<span class="keyword">int</span> LeftBorderSum,RightBorderSum;</span><br><span class="line">	<span class="keyword">int</span> Center,i;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span>(Left==Right)   <span class="comment">//Base Case,即'基准情形'</span></span><br><span class="line">	<span class="keyword">if</span> (A[Left]&gt;<span class="number">0</span>)</span><br><span class="line">		<span class="keyword">return</span> A[Left];</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">		<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">	Center = (Left + Right)/<span class="number">2</span>;</span><br><span class="line">	MaxLeftSum=MaxSubSum(A,Left,Center);<span class="comment">//左边中最大的子序列和</span></span><br><span class="line">	MaxRightSum=MaxSubSum(A,Center+<span class="number">1</span>,Right);<span class="comment">//右边中最大的子序列和</span></span><br><span class="line">	MaxLeftBorderSum = <span class="number">0</span>; LeftBorderSum = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(i=Center;i&gt;=Left;i--)<span class="comment">//从中心开始向左找最大子序列和</span></span><br><span class="line">	&#123;</span><br><span class="line">		LeftBorderSum+=A[i];</span><br><span class="line">		<span class="keyword">if</span>(LeftBorderSum&gt;MaxLeftBorderSum)</span><br><span class="line">		MaxLeftBorderSum= LeftBorderSum;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	MaxRightBorderSum = <span class="number">0</span>; RightBorderSum = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(i=Center+<span class="number">1</span>;i&lt;=Right;i+　+)<span class="comment">//从中心开始向右找最大子序列和</span></span><br><span class="line">	&#123;</span><br><span class="line">		RightBorderSum+=A[i];</span><br><span class="line">		<span class="keyword">if</span>(RightBorderSum&gt;MaxRightBorderSum)</span><br><span class="line">		MaxRightBorderSum=RightBorderSum;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> Max3(MaxLeftSum,MaxRightSum,MaxLeftBorderSum + MaxRightBorderSum);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">MaxSubsequenceSum</span><span class="params">(<span class="keyword">const</span> <span class="keyword">int</span> A[], <span class="keyword">int</span> N)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> MaxSubSum(A , <span class="number">0</span> , N - <span class="number">1</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">Max3</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b,<span class="keyword">int</span> c)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span> (a&gt;b)</span><br><span class="line">	<span class="keyword">if</span> (a&gt;c) <span class="keyword">return</span> a;</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">return</span> c;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">	<span class="keyword">if</span> (c&gt;b) <span class="keyword">return</span> c;</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">return</span> b;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 <p><strong>• 更简单有效的算法4</strong></p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">MaxSubsequenceSum</span><span class="params">(<span class="keyword">const</span> <span class="keyword">int</span> A[], <span class="keyword">int</span> N)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> ThisSum,MaxSum,j;</span><br><span class="line">	</span><br><span class="line">	ThisSum=MaxSum=<span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(j=<span class="number">0</span>;j&lt;N;j++)</span><br><span class="line">	&#123;</span><br><span class="line">		ThisSum+=A[j];</span><br><span class="line">		<span class="keyword">if</span>(ThisSum &gt; MaxSum)</span><br><span class="line">			MaxSum = ThisSum;</span><br><span class="line">		<span class="keyword">else</span> <span class="keyword">if</span>(ThisSum &lt; <span class="number">0</span>)  <span class="comment">//这一步是关键，如果前j项和是负的，那就可以扔掉不要了</span></span><br><span class="line">			ThisSum=<span class="number">0</span>;</span><br><span class="line">	&#125;</span><br><span class="line">		<span class="keyword">return</span> MaxSum;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <blockquote>
@@ -159,11 +153,11 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://gabrieldrapor.github.io/2016/05/13/160513_dsa-ch2/" data-id="ciu5m90l6000ix8p3uk59bfhw" class="article-share-link" data-share="baidu" data-title="第二章 算法分析">分享到</a>
+        <a data-url="http://gabrieldrapor.github.io/2016/05/14/160513_dsa-ch2/" data-id="ciu5m90l6000ix8p3uk59bfhw" class="article-share-link" data-share="baidu" data-title="第二章 算法分析">分享到</a>
       
 
       
-        <a href="http://gabrieldrapor.github.io/2016/05/13/160513_dsa-ch2/#ds-thread" class="article-comment-link">评论</a>
+        <a href="http://gabrieldrapor.github.io/2016/05/14/160513_dsa-ch2/#ds-thread" class="article-comment-link">评论</a>
       
 
       
@@ -175,19 +169,19 @@
     
 <nav id="article-nav">
   
-    <a href="/2016/05/13/160513_dsa-ch1/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2016/05/17/160517_re/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">下一篇</strong>
       <div class="article-nav-title">
         
-          第一章 引论
+          4.17-5.17
         
       </div>
     </a>
   
   
-    <a href="/2016/05/03/160503_jsp/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2016/05/13/160513_dsa-ch1/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">上一篇</strong>
-      <div class="article-nav-title">jsp搭建JEECMS</div>
+      <div class="article-nav-title">第一章 引论</div>
     </a>
   
 </nav>
@@ -197,7 +191,7 @@
 
 
   <section id="comments">
-    <div id="ds-thread" class="ds-thread" data-thread-key="2016/05/13/160513_dsa-ch2/" data-title="第二章 算法分析" data-url="http://gabrieldrapor.github.io/2016/05/13/160513_dsa-ch2/"></div>
+    <div id="ds-thread" class="ds-thread" data-thread-key="2016/05/14/160513_dsa-ch2/" data-title="第二章 算法分析" data-url="http://gabrieldrapor.github.io/2016/05/14/160513_dsa-ch2/"></div>
   </section>
 </section>
       

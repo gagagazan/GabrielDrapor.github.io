@@ -97,18 +97,6 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p><strong>架设环境选择：Windows 7 32bit + IIS 7.0 + Microsoft SQL Server 2014 Express</strong></p>
-<p><strong>*由于搭建时网路的原因，只能在内网搭建，方法基本相同，只需在防火墙和ip等稍作调整即可</strong></p>
-<h5 id="1-配置IIS。"><a href="#1-配置IIS。" class="headerlink" title="1.配置IIS。"></a>1.配置IIS。</h5><p>&emsp;&emsp; IIS是我们的服务器应用程序，我们首先需要打开它。</p>
-<ul>
-<li>首先在控制面板-程序和功能-打开或关闭Windows功能（如图），勾选“Internet Information Services可承载的Web核心”，“Internet信息服务”。</li>
-</ul>
-<p>   <img src="http://7xugq7.com1.z0.glb.clouddn.com/image004.png"></p>
-<ul>
-<li><p>在管理工具中找到“Internet 信息服务(IIS)管理器”，打开它，在左侧的“连接”栏下面找“个人电脑名&gt;网站”，右键点击网站，选择“添加网站”（如图）</p>
-<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/image001.png"></p>
-</li>
-</ul>
-<p>在弹出的对话框中，填写必要信息。</p>
         
           <p class="article-more-link">
             <a href="/2016/05/03/160503_asp/#more">Read More</a>
@@ -162,18 +150,6 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p><strong>架设环境选择：Win8.1 64bit + Apache2.2.25 + MySQL5.7 + PHP5.6.20</strong></p>
-<p><strong>*由于搭建时网路的原因，只能在内网搭建，方法基本相同，只需在防火墙和ip等稍作调整即可</strong></p>
-<h5 id="1．安装Apache，MySQL和php"><a href="#1．安装Apache，MySQL和php" class="headerlink" title="1．安装Apache，MySQL和php"></a>1．安装Apache，MySQL和php</h5><p> 不多赘述，但需要注意的是：</p>
-<ul>
-<li>Apache安装过程，中会有端口设置，默认是80，为避免冲突可将其修改。安装后也可以在httpd.conf中修改监听的端口</li>
-<li>php安装完成后将安装目录下的php-development.ini重命名为php.ini    </li>
-<li>在MySQL安装过程中会要求设置管理员账号，设置之后要记住。</li>
-</ul>
-<h5 id="2-在Apache中添加php模块"><a href="#2-在Apache中添加php模块" class="headerlink" title="2.在Apache中添加php模块"></a>2.在Apache中添加php模块</h5><ul>
-<li>打开apache安装目录下conf目录中的httpd.conf，具体方法参照<a href="http://php.net/manual/zh/install.windows.apache2.php">http://php.net/manual/zh/install.windows.apache2.php</a> ，我采用的是添加cgi模块的方式，添加的部分如右图<br><img src=http://7xugq7.com1.z0.glb.clouddn.com/image052.png></li>
-</ul>
-<h5 id="3-在PHP中加载MySQL相关的扩展程序"><a href="#3-在PHP中加载MySQL相关的扩展程序" class="headerlink" title="3.在PHP中加载MySQL相关的扩展程序"></a>3.在PHP中加载MySQL相关的扩展程序</h5><p>需要在php.ini配置文件中将extension_dir = “ext”和extension=php_mysql.dll前的分号去掉，即取消这两行的注释。这一步的目的可以理解为是将php和MySQL相连。<br><img src=http://7xugq7.com1.z0.glb.clouddn.com/image056.png><br><img src=http://7xugq7.com1.z0.glb.clouddn.com/image054.png></p>
-<h5 id="4-从WordPress官网https-cn-wordpress-org-下载WordPress的压缩包，解压，将其放在服务器根目录下或者在httpd-conf中将目录设为这个目录。"><a href="#4-从WordPress官网https-cn-wordpress-org-下载WordPress的压缩包，解压，将其放在服务器根目录下或者在httpd-conf中将目录设为这个目录。" class="headerlink" title="4.从WordPress官网https://cn.wordpress.org/下载WordPress的压缩包，解压，将其放在服务器根目录下或者在httpd.conf中将目录设为这个目录。"></a>4.从WordPress官网<a href="https://cn.wordpress.org/下载WordPress的压缩包，解压，将其放在服务器根目录下或者在httpd.conf中将目录设为这个目录。">https://cn.wordpress.org/下载WordPress的压缩包，解压，将其放在服务器根目录下或者在httpd.conf中将目录设为这个目录。</a></h5>
         
           <p class="article-more-link">
             <a href="/2016/05/03/160503-php/#more">Read More</a>

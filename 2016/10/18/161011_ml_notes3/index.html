@@ -4,17 +4,29 @@
 <head>
   <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
   
-  <title>Archives: 2016/3 | Drapor</title>
+  <title>Machine Learning Notes 03 | Drapor</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Just record something">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Drapor">
-<meta property="og:url" content="http://gabrieldrapor.github.io/archives/2016/03/index.html">
+  <meta name="description" content="Multivariate Liear Regression
+Hypothesis:&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp; $h(\theta) = \sum_{i=0}^{n}\theta_{i}X_{i}$
+
+&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;$X=\begin{bmatrix}x_{0}\\ x_{1}\\ .\\ .\\">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Machine Learning Notes 03">
+<meta property="og:url" content="http://gabrieldrapor.github.io/2016/10/18/161011_ml_notes3/index.html">
 <meta property="og:site_name" content="Drapor">
-<meta property="og:description" content="Just record something">
+<meta property="og:description" content="Multivariate Liear Regression
+Hypothesis:&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp; $h(\theta) = \sum_{i=0}^{n}\theta_{i}X_{i}$
+
+&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;$X=\begin{bmatrix}x_{0}\\ x_{1}\\ .\\ .\\">
+<meta property="og:image" content="http://7xugq7.com1.z0.glb.clouddn.com/gd@nrml.png">
+<meta property="og:updated_time" content="2016-10-18T14:37:30.317Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Drapor">
-<meta name="twitter:description" content="Just record something">
+<meta name="twitter:title" content="Machine Learning Notes 03">
+<meta name="twitter:description" content="Multivariate Liear Regression
+Hypothesis:&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp; $h(\theta) = \sum_{i=0}^{n}\theta_{i}X_{i}$
+
+&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;$X=\begin{bmatrix}x_{0}\\ x_{1}\\ .\\ .\\">
+<meta name="twitter:image" content="http://7xugq7.com1.z0.glb.clouddn.com/gd@nrml.png">
   
     <link rel="alternative" href="/atom.xml" title="Drapor" type="application/atom+xml">
   
@@ -68,40 +80,94 @@
   </div>
 </header>
     <div class="outer">
-      <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2016" class="archive-year">2016</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2016/03/20/160320_plans/" class="archive-article-date">
-  <time datetime="2016-03-19T16:00:00.000Z" itemprop="datePublished">3月 20</time>
+      <section id="main"><article id="post-161011_ml_notes3" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/10/18/161011_ml_notes3/" class="article-date">
+  <time datetime="2016-10-17T16:00:00.000Z" itemprop="datePublished">2016-10-18</time>
 </a>
-      
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Machine-Learning/">Machine Learning</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/03/20/160320_plans/">未来一段时间</a>
+    <h1 class="article-title" itemprop="name">
+      Machine Learning Notes 03
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="Multivariate-Liear-Regression"><a href="#Multivariate-Liear-Regression" class="headerlink" title="Multivariate Liear Regression"></a>Multivariate Liear Regression</h2><ul>
+<li><strong>Hypothesis:</strong><br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <span>$h(\theta) = \sum_{i=0}^{n}\theta_{i}X_{i}$</span><!-- Has MathJax --></li>
+</ul>
+<p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span>$X=\begin{bmatrix}x_{0}\\ x_{1}\\ .\\ .\\ .\\ x_{n}\end{bmatrix}\in \mathbb{R}^{n+1}$</span><!-- Has MathJax -->&emsp;&emsp;<span>$\theta=\begin{bmatrix}\theta_{0}\\ \theta_{1}\\ .\\ .\\ .\\ \theta_{n}\end{bmatrix}\in \mathbb{R}^{n+1}$</span><!-- Has MathJax --></p>
+<p>&emsp;&emsp;<strong>Also</strong>,<span>$h(\theta) = \theta ^{ T} X$</span><!-- Has MathJax --></p>
+<hr>
+<h2 id="Gradient-descent"><a href="#Gradient-descent" class="headerlink" title="Gradient descent"></a><strong>Gradient descent</strong></h2><ul>
+<li><strong>Algorithm:</strong></li>
+</ul>
+<p>&emsp;&emsp;&emsp;Repeat{<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span>$\frac{\partial }{\partial j}J(\theta_{0},\theta_{1})=\sum_{i=1}^{n}(h_{\theta}(x^{(i)})-y^{(i)})x^{(i)}$</span><!-- Has MathJax --><br>&emsp;&emsp;&emsp;}</p>
+<hr>
+<h2 id="Feature-Scaling"><a href="#Feature-Scaling" class="headerlink" title="Feature Scaling"></a>Feature Scaling</h2><ul>
+<li><strong>Idea</strong>: Make sure fretures are on a similar scale.</li>
+<li><strong>Mean normalization</strong><br>&emsp;&emsp;Replace <span>$x_{i}$</span><!-- Has MathJax --> with <span>$x_{i}-\mu_{i}$</span><!-- Has MathJax --> to make features have approximately zero mean(Do not apply to <span>$x_{0}$</span><!-- Has MathJax -->, Which we suppose equals 1)<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span>$x_{i}:=\frac{x_{i}-\mu_{i}}{s_{i}}(i\neq0)$</span><!-- Has MathJax --><br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(<span>$\mu_{i}$</span><!-- Has MathJax --> :Average value of <span>$x_{i}$</span><!-- Has MathJax --> in training set, <span>$s_{i}$</span><!-- Has MathJax --> :range(=max-min)(or standard deviation))</li>
+</ul>
+<hr>
+<h2 id="Learning-Rate"><a href="#Learning-Rate" class="headerlink" title="Learning Rate"></a>Learning Rate</h2><ul>
+<li>If <span>$\alpha$</span><!-- Has MathJax --> is too small: slow convergence;</li>
+<li>If <span>$\alpha$</span><!-- Has MathJax --> is too large: <span>$J(\theta)$</span><!-- Has MathJax --> may not decrese on every iteration, may not converge(slow converge also possible);</li>
+</ul>
+<hr>
+<h2 id="Normal-Equation-—Solve-for-analytically"><a href="#Normal-Equation-—Solve-for-analytically" class="headerlink" title="Normal Equation —Solve for  analytically"></a>Normal Equation —Solve for <span>$\theta$</span><!-- Has MathJax --> analytically</h2><ul>
+<li>For the input X, add a column on the left in X filled with 1, make up a new X;</li>
+<li>then,<br>&emsp;&emsp; <span>$\theta = (X^{ T}X)^{-1}X^{ T}y$</span><!-- Has MathJax --></li>
+</ul>
+<p><strong>The difference between Gradient Descent and Normal Equation:</strong><br><img src="http://7xugq7.com1.z0.glb.clouddn.com/gd@nrml.png"></p>
 
+      
+    </div>
+    <footer class="article-footer">
+      
+        <a data-url="http://gabrieldrapor.github.io/2016/10/18/161011_ml_notes3/" data-id="ciufj2nl20014zkp39o08cjcq" class="article-share-link" data-share="baidu" data-title="Machine Learning Notes 03">分享到</a>
+      
+
+      
+        <a href="http://gabrieldrapor.github.io/2016/10/18/161011_ml_notes3/#ds-thread" class="article-comment-link">评论</a>
+      
+
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/《Machine-Learning》by-Andrew-Ng/">《Machine Learning》by Andrew Ng</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2016/10/11/161011_ml_notes2/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">上一篇</strong>
+      <div class="article-nav-title">Machine Learning Notes 02</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+  <section id="comments">
+    <div id="ds-thread" class="ds-thread" data-thread-key="2016/10/18/161011_ml_notes3/" data-title="Machine Learning Notes 03" data-url="http://gabrieldrapor.github.io/2016/10/18/161011_ml_notes3/"></div>
+  </section>
 </section>
       
       <aside id="sidebar">

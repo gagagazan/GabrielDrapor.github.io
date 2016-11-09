@@ -26,7 +26,7 @@
 <meta property="og:image" content="http://7xugq7.com1.z0.glb.clouddn.com/image098.png">
 <meta property="og:image" content="http://7xugq7.com1.z0.glb.clouddn.com/image102.png">
 <meta property="og:image" content="http://7xugq7.com1.z0.glb.clouddn.com/image104.png">
-<meta property="og:updated_time" content="2016-10-12T04:52:21.407Z">
+<meta property="og:updated_time" content="2016-10-22T07:30:56.708Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="jsp搭建JEECMS">
 <meta name="twitter:description" content="架设环境选择：Win8.1 64bit + Apache-tomcat-9.0.0 + MySQL5.7 + JDK 8.0">
@@ -118,7 +118,7 @@
 </li>
 <li>打开apache-tomcat-9.0.0.M4\bin目录下的start.bat<br>出现的对话框如果没有自动关闭，且最后一行为Server startup in xxx ms，说明服务器搭建成功(如图)<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image085.png"></li>
 <li>打开浏览器，访问localhost:8080，出现如图界面说明成功了<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image087.png"></li>
-<li>从官网<a href="http://www.jeecms.com/下载jeecms压缩包，下载之后解压" target="_blank" rel="external">http://www.jeecms.com/下载jeecms压缩包，下载之后解压</a><br>将其中ROOT目录替换webapps下的ROOT目录<br>重新启动服务器，在浏览器中访问localhost:8080，出现如图界面。说明配置正确了。<br>勾选“我已经阅读并同意此协议”，点击“下一步”<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image089.png"></li>
+<li>从官网<a href="http://www.jeecms.com/" target="_blank" rel="external">http://www.jeecms.com/</a> 下载jeecms压缩包，下载之后解压<br>将其中ROOT目录替换webapps下的ROOT目录<br>重新启动服务器，在浏览器中访问localhost:8080，出现如图界面。说明配置正确了。<br>勾选“我已经阅读并同意此协议”，点击“下一步”<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image089.png"></li>
 <li><p>之后会出现如图界面，填写相应信息即可。<br>点击“提交”<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image091.png"><br>此时会发现服务器报错了（如图），错误代码500。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image094.png"><br>参考<a href="http://stackoverflow.com/questions/17484764/java-lang-classnotfoundexception-com-mysql-jdbc-driver-in-eclipse" target="_blank" rel="external">http://stackoverflow.com/questions/17484764/java-lang-classnotfoundexception-com-mysql-jdbc-driver-in-eclipse</a> 可以得知是连接器出了问题，应该是MySQL与服务器没有连接好。<br>于是我们需要从<a href="https://dev.mysql.com/downloads/connector/j/下载Connector，下载好之后解压，将其中的mysql-connector-java-5.1.38-bin.jar" target="_blank" rel="external">https://dev.mysql.com/downloads/connector/j/下载Connector，下载好之后解压，将其中的mysql-connector-java-5.1.38-bin.jar</a> 放到Tomcat目录下的lib目录中。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image093.png"></p>
 </li>
 <li><p>重启Tomcat，重新提交数据库信息，然后会出现如下图的界面。<br><img src="http://7xugq7.com1.z0.glb.clouddn.com/image096.png"></p>
@@ -134,7 +134,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://gabrieldrapor.github.io/2016/05/03/160503_jsp/" data-id="ciufj2nkj000hzkp3dhjhruje" class="article-share-link" data-share="baidu" data-title="jsp搭建JEECMS">分享到</a>
+        <a data-url="http://gabrieldrapor.github.io/2016/05/03/160503_jsp/" data-id="civaj77ov000de0p3o0qj67nb" class="article-share-link" data-share="baidu" data-title="jsp搭建JEECMS">分享到</a>
       
 
       
@@ -150,19 +150,19 @@
     
 <nav id="article-nav">
   
-    <a href="/2016/05/13/160513_dsa-ch1/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2016/05/03/160503-php/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">下一篇</strong>
       <div class="article-nav-title">
         
-          第一章 引论
+          php搭建WordPress
         
       </div>
     </a>
   
   
-    <a href="/2016/05/03/160503-php/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2016/05/03/160503_asp/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">上一篇</strong>
-      <div class="article-nav-title">php搭建WordPress</div>
+      <div class="article-nav-title">ASP.NET 搭建 Discuz! NT</div>
     </a>
   
 </nav>

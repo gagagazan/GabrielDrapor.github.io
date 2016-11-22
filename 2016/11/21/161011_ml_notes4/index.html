@@ -4,54 +4,20 @@
 <head>
   <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
   
-  <title>4.17-5.17 | Drapor</title>
+  <title>Machine Learning Notes 04 | Drapor</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="一、本专业过去的这段时间里
-
-期中考试高代70，数分没及格，数分上还要多下功夫。期末考试两门都不能挂
-
-
-二、编程过去的这段时间里
-
-用C和Python两种编程语言，解决了学校OJ中34道问题（虽然有水题）
-捡起还没看完的《C Primer Plus》接着看，感觉还是很受益的。
-开始读《数据结构与算法分析——C语言描述》，学了基础的算法分析，学习了一点链表的内容，并做了相应的笔记。
-
-
-接下来">
+  <meta name="description" content="Classification&amp;emsp;&amp;emsp;For the binary classification, $y\in\left\{ 0,1 \right \}$&amp;emsp;&amp;emsp;(Also maybe, $y\in \left \{ 0,1,2,3,... \right \}$, that’s called a multiclass classification problem, w">
 <meta property="og:type" content="article">
-<meta property="og:title" content="4.17-5.17">
-<meta property="og:url" content="http://gabrieldrapor.github.io/2016/05/17/160517_re/index.html">
+<meta property="og:title" content="Machine Learning Notes 04">
+<meta property="og:url" content="http://gabrieldrapor.github.io/2016/11/21/161011_ml_notes4/index.html">
 <meta property="og:site_name" content="Drapor">
-<meta property="og:description" content="一、本专业过去的这段时间里
-
-期中考试高代70，数分没及格，数分上还要多下功夫。期末考试两门都不能挂
-
-
-二、编程过去的这段时间里
-
-用C和Python两种编程语言，解决了学校OJ中34道问题（虽然有水题）
-捡起还没看完的《C Primer Plus》接着看，感觉还是很受益的。
-开始读《数据结构与算法分析——C语言描述》，学了基础的算法分析，学习了一点链表的内容，并做了相应的笔记。
-
-
-接下来">
-<meta property="og:updated_time" content="2016-10-10T04:10:36.057Z">
+<meta property="og:description" content="Classification&amp;emsp;&amp;emsp;For the binary classification, $y\in\left\{ 0,1 \right \}$&amp;emsp;&amp;emsp;(Also maybe, $y\in \left \{ 0,1,2,3,... \right \}$, that’s called a multiclass classification problem, w">
+<meta property="og:image" content="http://7xugq7.com1.z0.glb.clouddn.com/decision_boundary.png">
+<meta property="og:updated_time" content="2016-11-22T12:15:54.286Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="4.17-5.17">
-<meta name="twitter:description" content="一、本专业过去的这段时间里
-
-期中考试高代70，数分没及格，数分上还要多下功夫。期末考试两门都不能挂
-
-
-二、编程过去的这段时间里
-
-用C和Python两种编程语言，解决了学校OJ中34道问题（虽然有水题）
-捡起还没看完的《C Primer Plus》接着看，感觉还是很受益的。
-开始读《数据结构与算法分析——C语言描述》，学了基础的算法分析，学习了一点链表的内容，并做了相应的笔记。
-
-
-接下来">
+<meta name="twitter:title" content="Machine Learning Notes 04">
+<meta name="twitter:description" content="Classification&amp;emsp;&amp;emsp;For the binary classification, $y\in\left\{ 0,1 \right \}$&amp;emsp;&amp;emsp;(Also maybe, $y\in \left \{ 0,1,2,3,... \right \}$, that’s called a multiclass classification problem, w">
+<meta name="twitter:image" content="http://7xugq7.com1.z0.glb.clouddn.com/decision_boundary.png">
   
     <link rel="alternative" href="/atom.xml" title="Drapor" type="application/atom+xml">
   
@@ -105,14 +71,14 @@
   </div>
 </header>
     <div class="outer">
-      <section id="main"><article id="post-160517_re" class="article article-type-post" itemscope itemprop="blogPost">
+      <section id="main"><article id="post-161011_ml_notes4" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2016/05/17/160517_re/" class="article-date">
-  <time datetime="2016-05-16T16:00:00.000Z" itemprop="datePublished">2016-05-17</time>
+    <a href="/2016/11/21/161011_ml_notes4/" class="article-date">
+  <time datetime="2016-11-20T16:00:00.000Z" itemprop="datePublished">2016-11-21</time>
 </a>
     
   <div class="article-category">
-    <a class="article-category-link" href="/categories/学习记录/">学习记录</a>
+    <a class="article-category-link" href="/categories/Machine-Learning/">Machine Learning</a>
   </div>
 
   </div>
@@ -123,7 +89,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      4.17-5.17
+      Machine Learning Notes 04
     </h1>
   
 
@@ -131,74 +97,74 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="一、本专业"><a href="#一、本专业" class="headerlink" title="一、本专业"></a>一、本专业</h1><h4 id="过去的这段时间里"><a href="#过去的这段时间里" class="headerlink" title="过去的这段时间里"></a>过去的这段时间里</h4><blockquote>
-<ul>
-<li>期中考试高代70，数分没及格，数分上还要多下功夫。期末考试两门都不能挂</li>
+        <h2 id="Classification"><a href="#Classification" class="headerlink" title="Classification"></a>Classification</h2><p>&emsp;&emsp;For the binary classification, <span>$y\in\left\{ 0,1 \right \}$</span><!-- Has MathJax -->&emsp;&emsp;<br>(Also maybe, <span>$y\in \left \{ 0,1,2,3,... \right \}$</span><!-- Has MathJax -->, that’s called a <strong>multiclass classification problem</strong>, we will discuss it later.)<br>&emsp;&emsp;So, we use a model called <strong>Logisitic Regression</strong>, and we can see the hypothesis <span>$h_{\theta}(x)$</span><!-- Has MathJax --> should value in the range of 0 and 1. This is to say, <span>$0\leq h_{\theta}(x)\leq 1$</span><!-- Has MathJax -->.</p>
+<h2 id="Hypothesis-Representation"><a href="#Hypothesis-Representation" class="headerlink" title="Hypothesis Representation"></a>Hypothesis Representation</h2><ul>
+<li><p><strong>Logistic Regression:</strong><br>&emsp;&emsp;&emsp;&emsp;<span>$h_{\theta}(x)=g(\theta^{T}x)$</span><!-- Has MathJax -->,&emsp;<span>$g(z)=\frac{1}{1+e^{-z}}$</span><!-- Has MathJax --></p>
+</li>
+<li><p><strong>Interpretation of Hypothesis Output </strong><br>The value of <span>$h_{\theta}(x)$</span><!-- Has MathJax --> equals to the estimated probability that y=1 (on input x, parameterized by <span>$\theta$</span><!-- Has MathJax --> ). This is to say,<br>$$h_{\theta}(x)=P(y=1\mid x ; \theta)$$</p>
+</li>
+<li><p><strong>Decision Boundary</strong><br>The decision boundaries are like this:</p>
+</li>
 </ul>
-</blockquote>
-<h1 id="二、编程"><a href="#二、编程" class="headerlink" title="二、编程"></a>二、编程</h1><h4 id="过去的这段时间里-1"><a href="#过去的这段时间里-1" class="headerlink" title="过去的这段时间里"></a>过去的这段时间里</h4><blockquote>
-<ul>
-<li>用C和Python两种编程语言，解决了学校OJ中34道问题（虽然有水题）</li>
-<li>捡起还没看完的《C Primer Plus》接着看，感觉还是很受益的。</li>
-<li>开始读《数据结构与算法分析——C语言描述》，学了基础的算法分析，学习了一点链表的内容，并做了相应的笔记。</li>
+<p><img src="http://7xugq7.com1.z0.glb.clouddn.com/decision_boundary.png"></p>
+<p>&emsp;&emsp;<strong>Emphasis: Decision boundary is the property of hypothesis function, but not the property of training set and its parameters.</strong></p>
+<hr>
+<h2 id="Logistic-Regression-—How-to-fit-the-parameters-of-theta"><a href="#Logistic-Regression-—How-to-fit-the-parameters-of-theta" class="headerlink" title="Logistic Regression —How to fit the parameters of theta"></a><strong>Logistic Regression </strong>—How to fit the parameters of theta</h2><ul>
+<li><p><strong>Cost Function of Logistic Regression:</strong></p>
+<span>$$Cost(h_{\theta}, y)=\begin{cases}
+-log(h_{\theta}(x)) &amp; \text{ if } y=1 \\ 
+-log(1-h_{\theta}(x))  &amp; \text{ if } y=0 
+\end{cases}$$</span><!-- Has MathJax -->
+<p>Also, we can write it as:</p>
+<center><span>$Cost(h_{\theta}, y)=-ylog(h_{\theta}(x))-(1-y)log(1-h_{\theta}(x))$</span><!-- Has MathJax --></center>
+</li>
+<li><p><strong>Gradient Descent:</strong><br>To minimize <span>$J_{\theta}$</span><!-- Has MathJax --></p>
+</li>
 </ul>
-</blockquote>
-<h3 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h3><blockquote>
-<ul>
-<li>到六月份前配合着MIT的算法导论课，继续自由学习数据结构和算法的内容</li>
-</ul>
-</blockquote>
-<h1 id="三、网络"><a href="#三、网络" class="headerlink" title="三、网络"></a>三、网络</h1><h4 id="过去的这段时间里我"><a href="#过去的这段时间里我" class="headerlink" title="过去的这段时间里我"></a>过去的这段时间里我</h4><blockquote>
-<ul>
-<li>学会了用IIS+MS SQL Server架设一个叫做Discuz！NT的ASP.NET网站</li>
-<li>学会了用Apache+PHP+MySQL架设了一个叫做WordPress的php网站</li>
-<li>学会了用Tomcat+JDK+MySQL架设了一个叫做Jeecms的Jsp网站</li>
-</ul>
-</blockquote>
-<h4 id="接下来-1"><a href="#接下来-1" class="headerlink" title="接下来"></a>接下来</h4><blockquote>
-<ul>
-<li>学习远程配置vps（要学一点Linux），有选择性地学习一些网络知识（协议等）</li>
-</ul>
-</blockquote>
-<h1 id="四、其他"><a href="#四、其他" class="headerlink" title="四、其他"></a>四、其他</h1><h4 id="过去的这段时间我还"><a href="#过去的这段时间我还" class="headerlink" title="过去的这段时间我还"></a>过去的这段时间我还</h4><blockquote>
-<ul>
-<li>能够独立地拆自己十分难拆的笔记本</li>
-<li>看完了《Mr.Robot》 —— 感觉挺有共鸣的</li>
-<li>看完了《Legal High》第一季 —— 对法律有了一点新的感想</li>
-<li>看完了两季《Silicon Valley》，对创业有了新的看法</li>
-</ul>
-</blockquote>
-<h1 id="五、接下来的一点小计划"><a href="#五、接下来的一点小计划" class="headerlink" title="五、接下来的一点小计划"></a>五、接下来的一点小计划</h1><blockquote>
-<ul>
-<li>发现算法和数据结构还是蛮有意思的，而且很有益处，尽力学</li>
-<li>读完《C Primer Plus》，查漏补缺（书中涉及数据结构的部分也许可以先不看）</li>
-<li>把Python基础语法的尾收完</li>
-<li>边做上面的事情看看有没有合适的OJ题能做，还是要多实践</li>
-<li>接下来可能有3-5天电脑送修，利用这段时间看看曼昆和费曼的书，总之看看书</li>
-<li>6月中旬考四级，上了500分大学就可以不用再上英语课啦</li>
-<li>期末考试要认真准备</li>
-<li>希望能搭个博客，现在还在犹豫是选Github Pages还是自己租vps搭个WordPress之类的</li>
-<li>了解一下数据挖掘的路是走怎么走的</li>
-<li>*学爬虫，扒下自己的全部微博，注销之。</li>
-<li>要是感觉学习太枯燥了可以学一点Kali Linux</li>
-</ul>
+<p>&emsp;&emsp;&emsp;Repeat{<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span>$\theta_{j}:=\theta_{j}-\alpha\frac{1}{m}\sum_{i=1}^{n}(h_{\theta}(x^{(i)})-y^{(i)})x^{(i)}$</span><!-- Has MathJax --><br>&emsp;&emsp;&emsp;}</p>
+<p>&emsp;&emsp;<strong>And we can see that this algortithm looks identical to linear regression!<br>&emsp;&emsp;But actually, the hypothesis of them are different.</strong><br><span>$$\begin{cases}
+Linear\:Regression: h_{\theta}(x)=\theta^{T}x\\
+Logistic\:Regression: h_{\theta}(x)=\frac{1}{1+e^{-\theta^{T}x}}
+\end{cases}$$</span><!-- Has MathJax --></p>
+<p>Besides,</p>
+<blockquote>
+<p>“use a vector rise implementation, so that a vector rise implementation can update all of these until parameters all in one fell swoop.”</p>
 </blockquote>
 <hr>
-<p><strong>总之，学习不止。</strong></p>
+<h2 id="Advanced-Optimization"><a href="#Advanced-Optimization" class="headerlink" title="Advanced Optimization"></a>Advanced Optimization</h2><blockquote>
+<ul>
+<li>Gradient Descent</li>
+<li>Conjngate Gradient</li>
+<li>BFGS </li>
+<li>L-BFGS</li>
+<li>……</li>
+</ul>
+</blockquote>
+<ul>
+<li><p><strong>Adcantages:</strong><br>No need to manually pick <span>$\alpha$</span><!-- Has MathJax --> ;<br>Often faster than gradient descent;</p>
+</li>
+<li><p><strong>Disadvantages:</strong><br>More complex;</p>
+</li>
+</ul>
+<hr>
+<h2 id="Multi-class-classification-One-vs-all"><a href="#Multi-class-classification-One-vs-all" class="headerlink" title="Multi-class classification: One-vs-all"></a>Multi-class classification: One-vs-all</h2><ul>
+<li>For example, to slove the three-class problem, we can <em>“turn this into three seperate two-class classification problems.”</em></li>
+<li>On a new input <span>$x$</span><!-- Has MathJax -->, to make a prediction, pick the class i that maximizes.</li>
+</ul>
 
       
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://gabrieldrapor.github.io/2016/05/17/160517_re/" data-id="civrqhx01000nlsp3hiv6ot70" class="article-share-link" data-share="baidu" data-title="4.17-5.17">分享到</a>
+        <a data-url="http://gabrieldrapor.github.io/2016/11/21/161011_ml_notes4/" data-id="civrqhx10001elsp3ds483i40" class="article-share-link" data-share="baidu" data-title="Machine Learning Notes 04">分享到</a>
       
 
       
-        <a href="http://gabrieldrapor.github.io/2016/05/17/160517_re/#ds-thread" class="article-comment-link">评论</a>
+        <a href="http://gabrieldrapor.github.io/2016/11/21/161011_ml_notes4/#ds-thread" class="article-comment-link">评论</a>
       
 
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Paths/">Paths</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Plans/">Plans</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/《Machine-Learning》by-Andrew-Ng/">《Machine Learning》by Andrew Ng</a></li></ul>
 
     </footer>
   </div>
@@ -206,19 +172,10 @@
     
 <nav id="article-nav">
   
-    <a href="/2016/06/24/160624_re/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">下一篇</strong>
-      <div class="article-nav-title">
-        
-          5.17-6.24
-        
-      </div>
-    </a>
   
-  
-    <a href="/2016/05/14/160513_dsa-ch2/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2016/10/18/161011_ml_notes3/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">上一篇</strong>
-      <div class="article-nav-title">第二章 算法分析</div>
+      <div class="article-nav-title">Machine Learning Notes 03</div>
     </a>
   
 </nav>
@@ -228,7 +185,7 @@
 
 
   <section id="comments">
-    <div id="ds-thread" class="ds-thread" data-thread-key="2016/05/17/160517_re/" data-title="4.17-5.17" data-url="http://gabrieldrapor.github.io/2016/05/17/160517_re/"></div>
+    <div id="ds-thread" class="ds-thread" data-thread-key="2016/11/21/161011_ml_notes4/" data-title="Machine Learning Notes 04" data-url="http://gabrieldrapor.github.io/2016/11/21/161011_ml_notes4/"></div>
   </section>
 </section>
       

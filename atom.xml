@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://gabrieldrapor.github.io/"/>
-  <updated>2016-11-22T12:15:54.286Z</updated>
+  <updated>2016-11-22T12:18:41.002Z</updated>
   <id>http://gabrieldrapor.github.io/</id>
   
   <author>
@@ -20,9 +20,10 @@
     <link href="http://gabrieldrapor.github.io/2016/11/21/161011_ml_notes4/"/>
     <id>http://gabrieldrapor.github.io/2016/11/21/161011_ml_notes4/</id>
     <published>2016-11-20T16:00:00.000Z</published>
-    <updated>2016-11-22T12:15:54.286Z</updated>
+    <updated>2016-11-22T12:18:41.002Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Classification"><a href="#Classification" class="headerlink" title="Classification"></a>Classification</h2><p>&emsp;&emsp;For the binary classification, <span>$y\in\left\{ 0,1 \right \}$</span><!-- Has MathJax -->&emsp;&emsp;<br>(Also maybe, <span>$y\in \left \{ 0,1,2,3,... \right \}$</span><!-- Has MathJax -->, that’s called a <strong>multiclass classification problem</strong>, we will discuss it later.)<br>&emsp;&emsp;So, we use a model called <strong>Logisitic Regression</strong>, and we can see the hypothesis <span>$h_{\theta}(x)$</span><!-- Has MathJax --> should value in the range of 0 and 1. This is to say, <span>$0\leq h_{\theta}(x)\leq 1$</span><!-- Has MathJax -->.</p>
+    <content type="html"><![CDATA[<h2 id="Classification"><a href="#Classification" class="headerlink" title="Classification"></a>Classification</h2><p>&emsp;&emsp;For the binary classification, <span>$y\in\left\{ 0,1 \right \}$</span><!-- Has MathJax -->&emsp;(Also maybe, <span>$y\in \left \{ 0,1,2,3,... \right \}$</span><!-- Has MathJax -->, that’s called a <strong>multiclass classification problem</strong>, we will discuss it later.)<br>&emsp;&emsp;So, we use a model called <strong>Logisitic Regression</strong>, and we can see the hypothesis <span>$h_{\theta}(x)$</span><!-- Has MathJax --> should value in the range of 0 and 1. This is to say, <span>$0\leq h_{\theta}(x)\leq 1$</span><!-- Has MathJax -->.</p>
+<hr>
 <h2 id="Hypothesis-Representation"><a href="#Hypothesis-Representation" class="headerlink" title="Hypothesis Representation"></a>Hypothesis Representation</h2><ul>
 <li><p><strong>Logistic Regression:</strong><br>&emsp;&emsp;&emsp;&emsp;<span>$h_{\theta}(x)=g(\theta^{T}x)$</span><!-- Has MathJax -->,&emsp;<span>$g(z)=\frac{1}{1+e^{-z}}$</span><!-- Has MathJax --></p>
 </li>
